@@ -1,0 +1,5321 @@
+{
+  "text_stats": {
+    "Plato Phae": {
+      "sentence_count": 1437,
+      "word_count": 40918,
+      "vocabulary_size": 4802,
+      "lexical_diversity": {
+        "ttr": 0.1174,
+        "unique_words": 4802,
+        "total_words": 40918,
+        "mtld": 64.34
+      },
+      "sentence_stats": {
+        "sentence_count": 1437,
+        "avg_sentence_length": 28.65,
+        "median_sentence_length": 24.0,
+        "min_sentence_length": 1,
+        "max_sentence_length": 202,
+        "std_sentence_length": 23.62
+      },
+      "word_stats": {
+        "avg_word_length": 4.4,
+        "median_word_length": 4.0,
+        "long_words": 7990,
+        "long_word_ratio": 0.1953
+      },
+      "top_words": [
+        [
+          "socrates",
+          269
+        ],
+        [
+          "phaedrus",
+          256
+        ],
+        [
+          "love",
+          154
+        ],
+        [
+          "soul",
+          124
+        ],
+        [
+          "art",
+          116
+        ],
+        [
+          "lover",
+          101
+        ],
+        [
+          "say",
+          99
+        ],
+        [
+          "work",
+          95
+        ],
+        [
+          "nature",
+          93
+        ],
+        [
+          "truth",
+          92
+        ],
+        [
+          "project",
+          88
+        ],
+        [
+          "speech",
+          85
+        ],
+        [
+          "god",
+          82
+        ],
+        [
+          "man",
+          75
+        ],
+        [
+          "true",
+          74
+        ],
+        [
+          "u",
+          72
+        ],
+        [
+          "know",
+          70
+        ],
+        [
+          "first",
+          67
+        ],
+        [
+          "great",
+          66
+        ],
+        [
+          "good",
+          65
+        ],
+        [
+          "time",
+          64
+        ],
+        [
+          "word",
+          64
+        ],
+        [
+          "rhetoric",
+          63
+        ],
+        [
+          "many",
+          61
+        ],
+        [
+          "another",
+          59
+        ],
+        [
+          "make",
+          56
+        ],
+        [
+          "thing",
+          56
+        ],
+        [
+          "plato",
+          55
+        ],
+        [
+          "men",
+          55
+        ],
+        [
+          "lysias",
+          54
+        ],
+        [
+          "life",
+          54
+        ],
+        [
+          "way",
+          52
+        ],
+        [
+          "mind",
+          51
+        ],
+        [
+          "beloved",
+          51
+        ],
+        [
+          "two",
+          50
+        ],
+        [
+          "world",
+          49
+        ],
+        [
+          "writing",
+          49
+        ],
+        [
+          "think",
+          49
+        ],
+        [
+          "form",
+          47
+        ],
+        [
+          "whether",
+          45
+        ],
+        [
+          "knowledge",
+          45
+        ],
+        [
+          "desire",
+          44
+        ],
+        [
+          "see",
+          43
+        ],
+        [
+          "state",
+          42
+        ],
+        [
+          "shall",
+          42
+        ],
+        [
+          "come",
+          42
+        ],
+        [
+          "let",
+          42
+        ],
+        [
+          "whole",
+          41
+        ],
+        [
+          "might",
+          41
+        ],
+        [
+          "beauty",
+          40
+        ],
+        [
+          "yet",
+          39
+        ],
+        [
+          "power",
+          38
+        ],
+        [
+          "law",
+          37
+        ],
+        [
+          "human",
+          37
+        ],
+        [
+          "far",
+          37
+        ],
+        [
+          "others",
+          37
+        ],
+        [
+          "therefore",
+          37
+        ],
+        [
+          "never",
+          36
+        ],
+        [
+          "better",
+          36
+        ],
+        [
+          "friend",
+          36
+        ],
+        [
+          "give",
+          35
+        ],
+        [
+          "well",
+          35
+        ],
+        [
+          "ought",
+          35
+        ],
+        [
+          "reason",
+          35
+        ],
+        [
+          "name",
+          35
+        ],
+        [
+          "without",
+          35
+        ],
+        [
+          "thought",
+          35
+        ],
+        [
+          "discourse",
+          35
+        ],
+        [
+          "use",
+          34
+        ],
+        [
+          "part",
+          34
+        ],
+        [
+          "place",
+          33
+        ],
+        [
+          "always",
+          33
+        ],
+        [
+          "wing",
+          33
+        ],
+        [
+          "dialogue",
+          32
+        ],
+        [
+          "go",
+          32
+        ],
+        [
+          "rather",
+          32
+        ],
+        [
+          "manner",
+          32
+        ],
+        [
+          "gutenberg",
+          31
+        ],
+        [
+          "person",
+          31
+        ],
+        [
+          "even",
+          31
+        ],
+        [
+          "yes",
+          31
+        ],
+        [
+          "character",
+          30
+        ],
+        [
+          "philosophy",
+          29
+        ],
+        [
+          "ever",
+          29
+        ],
+        [
+          "take",
+          29
+        ],
+        [
+          "age",
+          29
+        ],
+        [
+          "heaven",
+          29
+        ],
+        [
+          "speaking",
+          29
+        ],
+        [
+          "mean",
+          29
+        ],
+        [
+          "matter",
+          28
+        ],
+        [
+          "idea",
+          28
+        ],
+        [
+          "anything",
+          28
+        ],
+        [
+          "away",
+          27
+        ],
+        [
+          "day",
+          27
+        ],
+        [
+          "found",
+          27
+        ],
+        [
+          "nothing",
+          27
+        ],
+        [
+          "madness",
+          27
+        ],
+        [
+          "charioteer",
+          27
+        ],
+        [
+          "speak",
+          27
+        ],
+        [
+          "electronic",
+          27
+        ]
+      ]
+    },
+    "Aristotle Poetics": {
+      "sentence_count": 792,
+      "word_count": 17975,
+      "vocabulary_size": 2688,
+      "lexical_diversity": {
+        "ttr": 0.1495,
+        "unique_words": 2688,
+        "total_words": 17975,
+        "mtld": 56.88
+      },
+      "sentence_stats": {
+        "sentence_count": 792,
+        "avg_sentence_length": 23.02,
+        "median_sentence_length": 20.0,
+        "min_sentence_length": 1,
+        "max_sentence_length": 119,
+        "std_sentence_length": 15.2
+      },
+      "word_stats": {
+        "avg_word_length": 4.56,
+        "median_word_length": 4.0,
+        "long_words": 4083,
+        "long_word_ratio": 0.2271
+      },
+      "top_words": [
+        [
+          "project",
+          88
+        ],
+        [
+          "tragedy",
+          86
+        ],
+        [
+          "poet",
+          83
+        ],
+        [
+          "epsilon",
+          82
+        ],
+        [
+          "work",
+          79
+        ],
+        [
+          "alpha",
+          74
+        ],
+        [
+          "iota",
+          74
+        ],
+        [
+          "action",
+          70
+        ],
+        [
+          "part",
+          65
+        ],
+        [
+          "nu",
+          64
+        ],
+        [
+          "omicron",
+          61
+        ],
+        [
+          "word",
+          58
+        ],
+        [
+          "plot",
+          58
+        ],
+        [
+          "poetry",
+          47
+        ],
+        [
+          "rho",
+          47
+        ],
+        [
+          "imitation",
+          44
+        ],
+        [
+          "character",
+          43
+        ],
+        [
+          "kind",
+          41
+        ],
+        [
+          "art",
+          39
+        ],
+        [
+          "thing",
+          39
+        ],
+        [
+          "epic",
+          38
+        ],
+        [
+          "term",
+          35
+        ],
+        [
+          "delta",
+          34
+        ],
+        [
+          "mean",
+          33
+        ],
+        [
+          "tau",
+          33
+        ],
+        [
+          "sigma",
+          33
+        ],
+        [
+          "gutenberg",
+          31
+        ],
+        [
+          "form",
+          31
+        ],
+        [
+          "either",
+          31
+        ],
+        [
+          "thus",
+          31
+        ],
+        [
+          "recognition",
+          30
+        ],
+        [
+          "first",
+          30
+        ],
+        [
+          "person",
+          29
+        ],
+        [
+          "mu",
+          29
+        ],
+        [
+          "therefore",
+          28
+        ],
+        [
+          "end",
+          28
+        ],
+        [
+          "without",
+          27
+        ],
+        [
+          "make",
+          27
+        ],
+        [
+          "kappa",
+          27
+        ],
+        [
+          "electronic",
+          27
+        ],
+        [
+          "even",
+          26
+        ],
+        [
+          "omega",
+          26
+        ],
+        [
+          "state",
+          25
+        ],
+        [
+          "element",
+          24
+        ],
+        [
+          "good",
+          24
+        ],
+        [
+          "many",
+          24
+        ],
+        [
+          "effect",
+          24
+        ],
+        [
+          "foundation",
+          24
+        ],
+        [
+          "use",
+          23
+        ],
+        [
+          "incident",
+          23
+        ],
+        [
+          "diction",
+          23
+        ],
+        [
+          "proper",
+          23
+        ],
+        [
+          "eta",
+          23
+        ],
+        [
+          "another",
+          22
+        ],
+        [
+          "pi",
+          22
+        ],
+        [
+          "sound",
+          22
+        ],
+        [
+          "upsilon",
+          22
+        ],
+        [
+          "law",
+          21
+        ],
+        [
+          "whole",
+          21
+        ],
+        [
+          "tragic",
+          21
+        ],
+        [
+          "general",
+          21
+        ],
+        [
+          "poem",
+          21
+        ],
+        [
+          "verse",
+          20
+        ],
+        [
+          "copy",
+          19
+        ],
+        [
+          "license",
+          19
+        ],
+        [
+          "example",
+          19
+        ],
+        [
+          "agreement",
+          19
+        ],
+        [
+          "come",
+          19
+        ],
+        [
+          "metre",
+          19
+        ],
+        [
+          "men",
+          19
+        ],
+        [
+          "man",
+          19
+        ],
+        [
+          "copyright",
+          19
+        ],
+        [
+          "language",
+          18
+        ],
+        [
+          "however",
+          18
+        ],
+        [
+          "object",
+          18
+        ],
+        [
+          "comedy",
+          18
+        ],
+        [
+          "thought",
+          18
+        ],
+        [
+          "difference",
+          18
+        ],
+        [
+          "way",
+          18
+        ],
+        [
+          "lambda",
+          18
+        ],
+        [
+          "case",
+          17
+        ],
+        [
+          "two",
+          17
+        ],
+        [
+          "say",
+          17
+        ],
+        [
+          "already",
+          17
+        ],
+        [
+          "single",
+          17
+        ],
+        [
+          "time",
+          17
+        ],
+        [
+          "subject",
+          17
+        ],
+        [
+          "indeed",
+          16
+        ],
+        [
+          "life",
+          16
+        ],
+        [
+          "certain",
+          16
+        ],
+        [
+          "fact",
+          16
+        ],
+        [
+          "bad",
+          16
+        ],
+        [
+          "event",
+          16
+        ],
+        [
+          "donation",
+          16
+        ],
+        [
+          "united",
+          15
+        ],
+        [
+          "pity",
+          15
+        ],
+        [
+          "number",
+          15
+        ],
+        [
+          "within",
+          15
+        ],
+        [
+          "yet",
+          15
+        ],
+        [
+          "homer",
+          15
+        ]
+      ]
+    },
+    "Artistotle Ethics": {
+      "sentence_count": 3009,
+      "word_count": 114642,
+      "vocabulary_size": 6772,
+      "lexical_diversity": {
+        "ttr": 0.0591,
+        "unique_words": 6772,
+        "total_words": 114642,
+        "mtld": 59.9
+      },
+      "sentence_stats": {
+        "sentence_count": 3009,
+        "avg_sentence_length": 38.68,
+        "median_sentence_length": 32.0,
+        "min_sentence_length": 1,
+        "max_sentence_length": 646,
+        "std_sentence_length": 32.19
+      },
+      "word_stats": {
+        "avg_word_length": 4.4,
+        "median_word_length": 4.0,
+        "long_words": 22531,
+        "long_word_ratio": 0.1965
+      },
+      "top_words": [
+        [
+          "man",
+          923
+        ],
+        [
+          "good",
+          647
+        ],
+        [
+          "thing",
+          489
+        ],
+        [
+          "pleasure",
+          420
+        ],
+        [
+          "men",
+          354
+        ],
+        [
+          "mean",
+          335
+        ],
+        [
+          "greek",
+          298
+        ],
+        [
+          "reason",
+          298
+        ],
+        [
+          "state",
+          278
+        ],
+        [
+          "case",
+          270
+        ],
+        [
+          "action",
+          261
+        ],
+        [
+          "object",
+          253
+        ],
+        [
+          "moral",
+          251
+        ],
+        [
+          "virtue",
+          251
+        ],
+        [
+          "act",
+          243
+        ],
+        [
+          "kind",
+          240
+        ],
+        [
+          "say",
+          227
+        ],
+        [
+          "friendship",
+          227
+        ],
+        [
+          "friend",
+          225
+        ],
+        [
+          "way",
+          206
+        ],
+        [
+          "right",
+          203
+        ],
+        [
+          "fact",
+          198
+        ],
+        [
+          "nature",
+          194
+        ],
+        [
+          "since",
+          193
+        ],
+        [
+          "thought",
+          191
+        ],
+        [
+          "work",
+          178
+        ],
+        [
+          "instance",
+          177
+        ],
+        [
+          "character",
+          174
+        ],
+        [
+          "life",
+          173
+        ],
+        [
+          "term",
+          163
+        ],
+        [
+          "respect",
+          161
+        ],
+        [
+          "others",
+          153
+        ],
+        [
+          "well",
+          153
+        ],
+        [
+          "another",
+          151
+        ],
+        [
+          "principle",
+          148
+        ],
+        [
+          "pain",
+          147
+        ],
+        [
+          "course",
+          144
+        ],
+        [
+          "end",
+          142
+        ],
+        [
+          "matter",
+          142
+        ],
+        [
+          "two",
+          141
+        ],
+        [
+          "chapter",
+          140
+        ],
+        [
+          "take",
+          138
+        ],
+        [
+          "even",
+          134
+        ],
+        [
+          "make",
+          133
+        ],
+        [
+          "working",
+          133
+        ],
+        [
+          "practical",
+          130
+        ],
+        [
+          "either",
+          130
+        ],
+        [
+          "give",
+          126
+        ],
+        [
+          "knowledge",
+          126
+        ],
+        [
+          "come",
+          126
+        ],
+        [
+          "sense",
+          125
+        ],
+        [
+          "particular",
+          121
+        ],
+        [
+          "time",
+          120
+        ],
+        [
+          "bad",
+          120
+        ],
+        [
+          "happiness",
+          118
+        ],
+        [
+          "first",
+          117
+        ],
+        [
+          "different",
+          116
+        ],
+        [
+          "certain",
+          114
+        ],
+        [
+          "part",
+          113
+        ],
+        [
+          "therefore",
+          112
+        ],
+        [
+          "ought",
+          111
+        ],
+        [
+          "thus",
+          110
+        ],
+        [
+          "many",
+          109
+        ],
+        [
+          "without",
+          107
+        ],
+        [
+          "point",
+          106
+        ],
+        [
+          "yet",
+          105
+        ],
+        [
+          "law",
+          104
+        ],
+        [
+          "feeling",
+          103
+        ],
+        [
+          "contrary",
+          102
+        ],
+        [
+          "best",
+          101
+        ],
+        [
+          "honour",
+          100
+        ],
+        [
+          "view",
+          99
+        ],
+        [
+          "pleasant",
+          99
+        ],
+        [
+          "less",
+          98
+        ],
+        [
+          "choice",
+          98
+        ],
+        [
+          "people",
+          98
+        ],
+        [
+          "towards",
+          97
+        ],
+        [
+          "neither",
+          96
+        ],
+        [
+          "done",
+          96
+        ],
+        [
+          "wisdom",
+          96
+        ],
+        [
+          "great",
+          93
+        ],
+        [
+          "desire",
+          93
+        ],
+        [
+          "really",
+          93
+        ],
+        [
+          "unjust",
+          93
+        ],
+        [
+          "call",
+          92
+        ],
+        [
+          "proper",
+          91
+        ],
+        [
+          "though",
+          89
+        ],
+        [
+          "person",
+          89
+        ],
+        [
+          "project",
+          88
+        ],
+        [
+          "cause",
+          88
+        ],
+        [
+          "merely",
+          87
+        ],
+        [
+          "whether",
+          86
+        ],
+        [
+          "book",
+          85
+        ],
+        [
+          "common",
+          85
+        ],
+        [
+          "result",
+          85
+        ],
+        [
+          "human",
+          84
+        ],
+        [
+          "excess",
+          84
+        ],
+        [
+          "wish",
+          81
+        ],
+        [
+          "aristotle",
+          80
+        ],
+        [
+          "question",
+          80
+        ]
+      ]
+    },
+    "Plato Republic": {
+      "sentence_count": 5676,
+      "word_count": 127402,
+      "vocabulary_size": 7812,
+      "lexical_diversity": {
+        "ttr": 0.0613,
+        "unique_words": 7812,
+        "total_words": 127402,
+        "mtld": 62.39
+      },
+      "sentence_stats": {
+        "sentence_count": 5676,
+        "avg_sentence_length": 22.46,
+        "median_sentence_length": 16.0,
+        "min_sentence_length": 1,
+        "max_sentence_length": 208,
+        "std_sentence_length": 23.54
+      },
+      "word_stats": {
+        "avg_word_length": 4.24,
+        "median_word_length": 4.0,
+        "long_words": 21633,
+        "long_word_ratio": 0.1698
+      },
+      "top_words": [
+        [
+          "true",
+          489
+        ],
+        [
+          "state",
+          483
+        ],
+        [
+          "yes",
+          445
+        ],
+        [
+          "good",
+          432
+        ],
+        [
+          "say",
+          377
+        ],
+        [
+          "man",
+          370
+        ],
+        [
+          "u",
+          287
+        ],
+        [
+          "thing",
+          267
+        ],
+        [
+          "replied",
+          254
+        ],
+        [
+          "another",
+          241
+        ],
+        [
+          "nature",
+          241
+        ],
+        [
+          "certainly",
+          238
+        ],
+        [
+          "soul",
+          235
+        ],
+        [
+          "men",
+          234
+        ],
+        [
+          "justice",
+          233
+        ],
+        [
+          "life",
+          224
+        ],
+        [
+          "let",
+          204
+        ],
+        [
+          "shall",
+          198
+        ],
+        [
+          "mean",
+          192
+        ],
+        [
+          "way",
+          191
+        ],
+        [
+          "make",
+          187
+        ],
+        [
+          "whether",
+          184
+        ],
+        [
+          "know",
+          175
+        ],
+        [
+          "many",
+          173
+        ],
+        [
+          "first",
+          163
+        ],
+        [
+          "well",
+          161
+        ],
+        [
+          "knowledge",
+          159
+        ],
+        [
+          "evil",
+          159
+        ],
+        [
+          "see",
+          159
+        ],
+        [
+          "god",
+          153
+        ],
+        [
+          "work",
+          149
+        ],
+        [
+          "think",
+          147
+        ],
+        [
+          "art",
+          145
+        ],
+        [
+          "truth",
+          144
+        ],
+        [
+          "right",
+          138
+        ],
+        [
+          "time",
+          137
+        ],
+        [
+          "pleasure",
+          137
+        ],
+        [
+          "sort",
+          135
+        ],
+        [
+          "socrates",
+          132
+        ],
+        [
+          "take",
+          127
+        ],
+        [
+          "reason",
+          125
+        ],
+        [
+          "friend",
+          123
+        ],
+        [
+          "city",
+          122
+        ],
+        [
+          "principle",
+          119
+        ],
+        [
+          "desire",
+          119
+        ],
+        [
+          "great",
+          119
+        ],
+        [
+          "question",
+          119
+        ],
+        [
+          "never",
+          118
+        ],
+        [
+          "opinion",
+          117
+        ],
+        [
+          "quite",
+          117
+        ],
+        [
+          "part",
+          116
+        ],
+        [
+          "therefore",
+          116
+        ],
+        [
+          "word",
+          115
+        ],
+        [
+          "two",
+          115
+        ],
+        [
+          "come",
+          115
+        ],
+        [
+          "mind",
+          114
+        ],
+        [
+          "either",
+          114
+        ],
+        [
+          "better",
+          113
+        ],
+        [
+          "saying",
+          112
+        ],
+        [
+          "injustice",
+          112
+        ],
+        [
+          "unjust",
+          112
+        ],
+        [
+          "others",
+          111
+        ],
+        [
+          "nothing",
+          111
+        ],
+        [
+          "guardian",
+          111
+        ],
+        [
+          "law",
+          110
+        ],
+        [
+          "best",
+          108
+        ],
+        [
+          "made",
+          107
+        ],
+        [
+          "ruler",
+          107
+        ],
+        [
+          "glaucon",
+          106
+        ],
+        [
+          "suppose",
+          105
+        ],
+        [
+          "far",
+          104
+        ],
+        [
+          "ought",
+          104
+        ],
+        [
+          "person",
+          101
+        ],
+        [
+          "virtue",
+          100
+        ],
+        [
+          "go",
+          98
+        ],
+        [
+          "order",
+          97
+        ],
+        [
+          "use",
+          96
+        ],
+        [
+          "yet",
+          95
+        ],
+        [
+          "power",
+          94
+        ],
+        [
+          "body",
+          92
+        ],
+        [
+          "form",
+          91
+        ],
+        [
+          "manner",
+          90
+        ],
+        [
+          "whole",
+          90
+        ],
+        [
+          "project",
+          89
+        ],
+        [
+          "neither",
+          89
+        ],
+        [
+          "answer",
+          88
+        ],
+        [
+          "give",
+          87
+        ],
+        [
+          "class",
+          87
+        ],
+        [
+          "kind",
+          86
+        ],
+        [
+          "always",
+          85
+        ],
+        [
+          "even",
+          84
+        ],
+        [
+          "able",
+          84
+        ],
+        [
+          "child",
+          84
+        ],
+        [
+          "tell",
+          83
+        ],
+        [
+          "world",
+          82
+        ],
+        [
+          "subject",
+          82
+        ],
+        [
+          "place",
+          81
+        ],
+        [
+          "case",
+          81
+        ],
+        [
+          "woman",
+          81
+        ],
+        [
+          "individual",
+          80
+        ]
+      ]
+    },
+    "Plato Symp": {
+      "sentence_count": 1212,
+      "word_count": 35313,
+      "vocabulary_size": 4132,
+      "lexical_diversity": {
+        "ttr": 0.117,
+        "unique_words": 4132,
+        "total_words": 35313,
+        "mtld": 59.05
+      },
+      "sentence_stats": {
+        "sentence_count": 1212,
+        "avg_sentence_length": 29.4,
+        "median_sentence_length": 25.0,
+        "min_sentence_length": 1,
+        "max_sentence_length": 202,
+        "std_sentence_length": 22.43
+      },
+      "word_stats": {
+        "avg_word_length": 4.33,
+        "median_word_length": 4.0,
+        "long_words": 6568,
+        "long_word_ratio": 0.186
+      },
+      "top_words": [
+        [
+          "love",
+          375
+        ],
+        [
+          "socrates",
+          162
+        ],
+        [
+          "agathon",
+          103
+        ],
+        [
+          "god",
+          103
+        ],
+        [
+          "work",
+          98
+        ],
+        [
+          "good",
+          95
+        ],
+        [
+          "project",
+          88
+        ],
+        [
+          "men",
+          87
+        ],
+        [
+          "man",
+          86
+        ],
+        [
+          "say",
+          85
+        ],
+        [
+          "beauty",
+          80
+        ],
+        [
+          "desire",
+          75
+        ],
+        [
+          "lover",
+          66
+        ],
+        [
+          "another",
+          62
+        ],
+        [
+          "thing",
+          61
+        ],
+        [
+          "u",
+          59
+        ],
+        [
+          "nature",
+          58
+        ],
+        [
+          "true",
+          52
+        ],
+        [
+          "well",
+          50
+        ],
+        [
+          "two",
+          49
+        ],
+        [
+          "phaedrus",
+          47
+        ],
+        [
+          "way",
+          47
+        ],
+        [
+          "speak",
+          46
+        ],
+        [
+          "speech",
+          45
+        ],
+        [
+          "first",
+          45
+        ],
+        [
+          "eryximachus",
+          44
+        ],
+        [
+          "praise",
+          43
+        ],
+        [
+          "fair",
+          43
+        ],
+        [
+          "state",
+          41
+        ],
+        [
+          "time",
+          41
+        ],
+        [
+          "shall",
+          41
+        ],
+        [
+          "great",
+          41
+        ],
+        [
+          "many",
+          40
+        ],
+        [
+          "word",
+          39
+        ],
+        [
+          "replied",
+          39
+        ],
+        [
+          "make",
+          37
+        ],
+        [
+          "aristophanes",
+          37
+        ],
+        [
+          "plato",
+          36
+        ],
+        [
+          "compare",
+          36
+        ],
+        [
+          "others",
+          36
+        ],
+        [
+          "friend",
+          36
+        ],
+        [
+          "beautiful",
+          36
+        ],
+        [
+          "part",
+          35
+        ],
+        [
+          "always",
+          35
+        ],
+        [
+          "come",
+          34
+        ],
+        [
+          "soul",
+          34
+        ],
+        [
+          "want",
+          34
+        ],
+        [
+          "place",
+          34
+        ],
+        [
+          "whether",
+          34
+        ],
+        [
+          "know",
+          34
+        ],
+        [
+          "thought",
+          33
+        ],
+        [
+          "see",
+          33
+        ],
+        [
+          "truth",
+          33
+        ],
+        [
+          "made",
+          33
+        ],
+        [
+          "woman",
+          33
+        ],
+        [
+          "virtue",
+          33
+        ],
+        [
+          "without",
+          33
+        ],
+        [
+          "therefore",
+          33
+        ],
+        [
+          "law",
+          32
+        ],
+        [
+          "form",
+          32
+        ],
+        [
+          "yet",
+          32
+        ],
+        [
+          "day",
+          32
+        ],
+        [
+          "mean",
+          32
+        ],
+        [
+          "alcibiades",
+          32
+        ],
+        [
+          "gutenberg",
+          31
+        ],
+        [
+          "art",
+          31
+        ],
+        [
+          "manner",
+          31
+        ],
+        [
+          "power",
+          31
+        ],
+        [
+          "mind",
+          31
+        ],
+        [
+          "wisdom",
+          31
+        ],
+        [
+          "let",
+          31
+        ],
+        [
+          "life",
+          31
+        ],
+        [
+          "might",
+          30
+        ],
+        [
+          "evil",
+          30
+        ],
+        [
+          "world",
+          29
+        ],
+        [
+          "think",
+          29
+        ],
+        [
+          "among",
+          29
+        ],
+        [
+          "symposium",
+          28
+        ],
+        [
+          "could",
+          28
+        ],
+        [
+          "rather",
+          28
+        ],
+        [
+          "honour",
+          28
+        ],
+        [
+          "body",
+          28
+        ],
+        [
+          "human",
+          28
+        ],
+        [
+          "person",
+          27
+        ],
+        [
+          "best",
+          27
+        ],
+        [
+          "aristodemus",
+          27
+        ],
+        [
+          "begin",
+          27
+        ],
+        [
+          "youth",
+          27
+        ],
+        [
+          "electronic",
+          27
+        ],
+        [
+          "give",
+          26
+        ],
+        [
+          "right",
+          26
+        ],
+        [
+          "beloved",
+          26
+        ],
+        [
+          "take",
+          26
+        ],
+        [
+          "turn",
+          26
+        ],
+        [
+          "go",
+          26
+        ],
+        [
+          "wise",
+          26
+        ],
+        [
+          "even",
+          26
+        ],
+        [
+          "away",
+          25
+        ],
+        [
+          "sort",
+          25
+        ],
+        [
+          "agreement",
+          25
+        ]
+      ]
+    },
+    "Aristotle Gov": {
+      "sentence_count": 1834,
+      "word_count": 104150,
+      "vocabulary_size": 5595,
+      "lexical_diversity": {
+        "ttr": 0.0537,
+        "unique_words": 5595,
+        "total_words": 104150,
+        "mtld": 64.13
+      },
+      "sentence_stats": {
+        "sentence_count": 1834,
+        "avg_sentence_length": 57.47,
+        "median_sentence_length": 44.0,
+        "min_sentence_length": 1,
+        "max_sentence_length": 2213,
+        "std_sentence_length": 69.22
+      },
+      "word_stats": {
+        "avg_word_length": 4.47,
+        "median_word_length": 4.0,
+        "long_words": 20661,
+        "long_word_ratio": 0.1984
+      },
+      "top_words": [
+        [
+          "state",
+          617
+        ],
+        [
+          "government",
+          496
+        ],
+        [
+          "power",
+          344
+        ],
+        [
+          "city",
+          316
+        ],
+        [
+          "person",
+          300
+        ],
+        [
+          "law",
+          291
+        ],
+        [
+          "different",
+          276
+        ],
+        [
+          "others",
+          271
+        ],
+        [
+          "people",
+          260
+        ],
+        [
+          "many",
+          260
+        ],
+        [
+          "ought",
+          257
+        ],
+        [
+          "part",
+          251
+        ],
+        [
+          "thing",
+          244
+        ],
+        [
+          "democracy",
+          244
+        ],
+        [
+          "citizen",
+          243
+        ],
+        [
+          "necessary",
+          233
+        ],
+        [
+          "oligarchy",
+          220
+        ],
+        [
+          "good",
+          214
+        ],
+        [
+          "first",
+          208
+        ],
+        [
+          "men",
+          206
+        ],
+        [
+          "man",
+          204
+        ],
+        [
+          "virtue",
+          179
+        ],
+        [
+          "reason",
+          179
+        ],
+        [
+          "particular",
+          174
+        ],
+        [
+          "public",
+          169
+        ],
+        [
+          "nature",
+          167
+        ],
+        [
+          "make",
+          163
+        ],
+        [
+          "say",
+          163
+        ],
+        [
+          "magistrate",
+          163
+        ],
+        [
+          "community",
+          160
+        ],
+        [
+          "common",
+          159
+        ],
+        [
+          "manner",
+          159
+        ],
+        [
+          "life",
+          158
+        ],
+        [
+          "either",
+          157
+        ],
+        [
+          "best",
+          155
+        ],
+        [
+          "rich",
+          149
+        ],
+        [
+          "mean",
+          147
+        ],
+        [
+          "slave",
+          145
+        ],
+        [
+          "cause",
+          143
+        ],
+        [
+          "evident",
+          142
+        ],
+        [
+          "whether",
+          139
+        ],
+        [
+          "general",
+          134
+        ],
+        [
+          "proper",
+          133
+        ],
+        [
+          "two",
+          132
+        ],
+        [
+          "place",
+          128
+        ],
+        [
+          "shall",
+          127
+        ],
+        [
+          "number",
+          125
+        ],
+        [
+          "another",
+          125
+        ],
+        [
+          "thus",
+          121
+        ],
+        [
+          "work",
+          121
+        ],
+        [
+          "time",
+          121
+        ],
+        [
+          "right",
+          120
+        ],
+        [
+          "without",
+          119
+        ],
+        [
+          "child",
+          119
+        ],
+        [
+          "sort",
+          118
+        ],
+        [
+          "already",
+          115
+        ],
+        [
+          "well",
+          112
+        ],
+        [
+          "form",
+          110
+        ],
+        [
+          "family",
+          109
+        ],
+        [
+          "office",
+          109
+        ],
+        [
+          "therefore",
+          108
+        ],
+        [
+          "established",
+          108
+        ],
+        [
+          "great",
+          107
+        ],
+        [
+          "chapter",
+          104
+        ],
+        [
+          "take",
+          101
+        ],
+        [
+          "poor",
+          100
+        ],
+        [
+          "equal",
+          97
+        ],
+        [
+          "whole",
+          96
+        ],
+        [
+          "respect",
+          95
+        ],
+        [
+          "free",
+          95
+        ],
+        [
+          "property",
+          93
+        ],
+        [
+          "body",
+          92
+        ],
+        [
+          "better",
+          92
+        ],
+        [
+          "though",
+          91
+        ],
+        [
+          "account",
+          91
+        ],
+        [
+          "war",
+          91
+        ],
+        [
+          "supreme",
+          91
+        ],
+        [
+          "business",
+          90
+        ],
+        [
+          "project",
+          88
+        ],
+        [
+          "made",
+          88
+        ],
+        [
+          "art",
+          87
+        ],
+        [
+          "tyranny",
+          86
+        ],
+        [
+          "let",
+          85
+        ],
+        [
+          "indeed",
+          85
+        ],
+        [
+          "think",
+          84
+        ],
+        [
+          "according",
+          84
+        ],
+        [
+          "nothing",
+          84
+        ],
+        [
+          "legislator",
+          82
+        ],
+        [
+          "aristocracy",
+          82
+        ],
+        [
+          "use",
+          81
+        ],
+        [
+          "live",
+          80
+        ],
+        [
+          "yet",
+          77
+        ],
+        [
+          "end",
+          76
+        ],
+        [
+          "principle",
+          76
+        ],
+        [
+          "certain",
+          76
+        ],
+        [
+          "specie",
+          76
+        ],
+        [
+          "contrary",
+          76
+        ],
+        [
+          "hand",
+          74
+        ],
+        [
+          "judge",
+          74
+        ],
+        [
+          "share",
+          71
+        ]
+      ]
+    }
+  },
+  "vocabulary_analysis": {
+    "plato_vocabulary_size": 8598,
+    "aristotle_vocabulary_size": 8463,
+    "shared_vocabulary": 4894,
+    "plato_unique": 3704,
+    "aristotle_unique": 3569,
+    "overlap_percentage": 40.22,
+    "aristotle_uses_plato": 56.92,
+    "top_shared_words": [
+      {
+        "word": "one",
+        "plato_count": 917,
+        "aristotle_count": 1509
+      },
+      {
+        "word": "man",
+        "plato_count": 531,
+        "aristotle_count": 1146
+      },
+      {
+        "word": "may",
+        "plato_count": 707,
+        "aristotle_count": 861
+      },
+      {
+        "word": "said",
+        "plato_count": 1238,
+        "aristotle_count": 278
+      },
+      {
+        "word": "state",
+        "plato_count": 566,
+        "aristotle_count": 920
+      },
+      {
+        "word": "good",
+        "plato_count": 592,
+        "aristotle_count": 885
+      },
+      {
+        "word": "thing",
+        "plato_count": 384,
+        "aristotle_count": 772
+      },
+      {
+        "word": "would",
+        "plato_count": 655,
+        "aristotle_count": 467
+      },
+      {
+        "word": "also",
+        "plato_count": 380,
+        "aristotle_count": 731
+      },
+      {
+        "word": "must",
+        "plato_count": 429,
+        "aristotle_count": 571
+      },
+      {
+        "word": "say",
+        "plato_count": 561,
+        "aristotle_count": 407
+      },
+      {
+        "word": "men",
+        "plato_count": 376,
+        "aristotle_count": 579
+      },
+      {
+        "word": "mean",
+        "plato_count": 253,
+        "aristotle_count": 515
+      },
+      {
+        "word": "nature",
+        "plato_count": 392,
+        "aristotle_count": 372
+      },
+      {
+        "word": "true",
+        "plato_count": 615,
+        "aristotle_count": 141
+      },
+      {
+        "word": "work",
+        "plato_count": 342,
+        "aristotle_count": 378
+      },
+      {
+        "word": "like",
+        "plato_count": 448,
+        "aristotle_count": 247
+      },
+      {
+        "word": "reason",
+        "plato_count": 184,
+        "aristotle_count": 487
+      },
+      {
+        "word": "many",
+        "plato_count": 274,
+        "aristotle_count": 393
+      },
+      {
+        "word": "love",
+        "plato_count": 589,
+        "aristotle_count": 76
+      },
+      {
+        "word": "another",
+        "plato_count": 362,
+        "aristotle_count": 298
+      },
+      {
+        "word": "life",
+        "plato_count": 309,
+        "aristotle_count": 347
+      },
+      {
+        "word": "pleasure",
+        "plato_count": 165,
+        "aristotle_count": 478
+      },
+      {
+        "word": "first",
+        "plato_count": 275,
+        "aristotle_count": 355
+      },
+      {
+        "word": "others",
+        "plato_count": 184,
+        "aristotle_count": 433
+      },
+      {
+        "word": "part",
+        "plato_count": 185,
+        "aristotle_count": 429
+      },
+      {
+        "word": "make",
+        "plato_count": 280,
+        "aristotle_count": 323
+      },
+      {
+        "word": "socrates",
+        "plato_count": 563,
+        "aristotle_count": 34
+      },
+      {
+        "word": "law",
+        "plato_count": 179,
+        "aristotle_count": 416
+      },
+      {
+        "word": "power",
+        "plato_count": 163,
+        "aristotle_count": 425
+      },
+      {
+        "word": "person",
+        "plato_count": 159,
+        "aristotle_count": 418
+      },
+      {
+        "word": "way",
+        "plato_count": 290,
+        "aristotle_count": 281
+      },
+      {
+        "word": "virtue",
+        "plato_count": 136,
+        "aristotle_count": 432
+      },
+      {
+        "word": "u",
+        "plato_count": 418,
+        "aristotle_count": 147
+      },
+      {
+        "word": "government",
+        "plato_count": 51,
+        "aristotle_count": 508
+      },
+      {
+        "word": "ought",
+        "plato_count": 162,
+        "aristotle_count": 375
+      },
+      {
+        "word": "project",
+        "plato_count": 265,
+        "aristotle_count": 264
+      },
+      {
+        "word": "well",
+        "plato_count": 246,
+        "aristotle_count": 280
+      },
+      {
+        "word": "right",
+        "plato_count": 190,
+        "aristotle_count": 331
+      },
+      {
+        "word": "upon",
+        "plato_count": 192,
+        "aristotle_count": 328
+      },
+      {
+        "word": "every",
+        "plato_count": 161,
+        "aristotle_count": 344
+      },
+      {
+        "word": "two",
+        "plato_count": 214,
+        "aristotle_count": 290
+      },
+      {
+        "word": "whether",
+        "plato_count": 263,
+        "aristotle_count": 239
+      },
+      {
+        "word": "time",
+        "plato_count": 242,
+        "aristotle_count": 258
+      },
+      {
+        "word": "soul",
+        "plato_count": 393,
+        "aristotle_count": 106
+      },
+      {
+        "word": "art",
+        "plato_count": 292,
+        "aristotle_count": 201
+      },
+      {
+        "word": "either",
+        "plato_count": 159,
+        "aristotle_count": 318
+      },
+      {
+        "word": "different",
+        "plato_count": 75,
+        "aristotle_count": 397
+      },
+      {
+        "word": "city",
+        "plato_count": 142,
+        "aristotle_count": 325
+      },
+      {
+        "word": "shall",
+        "plato_count": 281,
+        "aristotle_count": 182
+      }
+    ],
+    "top_plato_unique": [
+      [
+        "yes",
+        488
+      ],
+      [
+        "phaedrus",
+        305
+      ],
+      [
+        "image",
+        76
+      ],
+      [
+        "adeimantus",
+        68
+      ],
+      [
+        "lysias",
+        60
+      ],
+      [
+        "eryximachus",
+        45
+      ],
+      [
+        "wing",
+        39
+      ],
+      [
+        "shadow",
+        37
+      ],
+      [
+        "literature",
+        35
+      ],
+      [
+        "polemarchus",
+        35
+      ],
+      [
+        "dialectic",
+        30
+      ],
+      [
+        "charioteer",
+        27
+      ],
+      [
+        "aristodemus",
+        27
+      ],
+      [
+        "steed",
+        26
+      ],
+      [
+        "heavenly",
+        26
+      ],
+      [
+        "mus",
+        25
+      ],
+      [
+        "inspired",
+        25
+      ],
+      [
+        "upwards",
+        24
+      ],
+      [
+        "cephalus",
+        24
+      ],
+      [
+        "assuredly",
+        23
+      ],
+      [
+        "hellene",
+        20
+      ],
+      [
+        "hellas",
+        19
+      ],
+      [
+        "mythology",
+        18
+      ],
+      [
+        "simplicity",
+        18
+      ],
+      [
+        "drone",
+        17
+      ],
+      [
+        "region",
+        16
+      ],
+      [
+        "diotima",
+        16
+      ],
+      [
+        "amid",
+        15
+      ],
+      [
+        "winged",
+        14
+      ],
+      [
+        "prophet",
+        14
+      ]
+    ],
+    "top_aristotle_unique": [
+      [
+        "epsilon",
+        82
+      ],
+      [
+        "alpha",
+        74
+      ],
+      [
+        "iota",
+        74
+      ],
+      [
+        "nu",
+        64
+      ],
+      [
+        "omicron",
+        61
+      ],
+      [
+        "plainly",
+        59
+      ],
+      [
+        "namely",
+        50
+      ],
+      [
+        "kingly",
+        49
+      ],
+      [
+        "rho",
+        47
+      ],
+      [
+        "stated",
+        44
+      ],
+      [
+        "deliberation",
+        44
+      ],
+      [
+        "pleasurable",
+        41
+      ],
+      [
+        "delta",
+        34
+      ],
+      [
+        "sigma",
+        33
+      ],
+      [
+        "census",
+        33
+      ],
+      [
+        "constitute",
+        32
+      ],
+      [
+        "chap",
+        32
+      ],
+      [
+        "requisite",
+        30
+      ],
+      [
+        "mu",
+        29
+      ],
+      [
+        "dealt",
+        28
+      ],
+      [
+        "kappa",
+        27
+      ],
+      [
+        "incident",
+        26
+      ],
+      [
+        "inquire",
+        24
+      ],
+      [
+        "j",
+        24
+      ],
+      [
+        "independent",
+        24
+      ],
+      [
+        "e",
+        24
+      ],
+      [
+        "bishop",
+        24
+      ],
+      [
+        "butler",
+        24
+      ],
+      [
+        "mechanic",
+        24
+      ],
+      [
+        "eta",
+        23
+      ]
+    ]
+  },
+  "pairwise_comparisons": {
+    "Plato Phae|||Aristotle Poetics": {
+      "shared_words": 1497,
+      "unique_to_first": 2694,
+      "unique_to_second": 853,
+      "jaccard_similarity": 0.2968,
+      "overlap_percentage_first": 35.72,
+      "overlap_percentage_second": 63.7,
+      "shared_words_list": [
+        "abide",
+        "able",
+        "absurd",
+        "absurdity",
+        "accent",
+        "accept",
+        "accepted",
+        "accepting",
+        "access",
+        "accessed",
+        "accessible",
+        "accidental",
+        "accompanied",
+        "accordance",
+        "according",
+        "accordingly",
+        "account",
+        "accounted",
+        "accusation",
+        "acquired",
+        "act",
+        "acting",
+        "action",
+        "active",
+        "actual",
+        "actually",
+        "adapted",
+        "add",
+        "adding",
+        "addition",
+        "additional",
+        "address",
+        "addressed",
+        "adequate",
+        "admirable",
+        "admit",
+        "admits",
+        "admitted",
+        "advantage",
+        "aeschylus",
+        "afford",
+        "afterwards",
+        "age",
+        "agent",
+        "agony",
+        "agree",
+        "agreed",
+        "agreement",
+        "agrees",
+        "aid",
+        "aim",
+        "air",
+        "akin",
+        "alike",
+        "allow",
+        "almost",
+        "alone",
+        "already",
+        "also",
+        "altar",
+        "alteration",
+        "altered",
+        "alternate",
+        "always",
+        "ambiguity",
+        "among",
+        "analogy",
+        "analysis",
+        "anger",
+        "animal",
+        "another",
+        "answer",
+        "answered",
+        "answering",
+        "anyhow",
+        "anyone",
+        "anything",
+        "anywhere",
+        "appeal",
+        "appear",
+        "appearing",
+        "appears",
+        "applicable",
+        "application",
+        "applies",
+        "apply",
+        "appointed",
+        "approach",
+        "appropriate",
+        "archive",
+        "are",
+        "arise",
+        "arises",
+        "aristophanes",
+        "aristotle",
+        "arm",
+        "arranged",
+        "arrangement",
+        "array",
+        "arrive"
+      ]
+    },
+    "Plato Phae|||Artistotle Ethics": {
+      "shared_words": 2488,
+      "unique_to_first": 1703,
+      "unique_to_second": 3487,
+      "jaccard_similarity": 0.324,
+      "overlap_percentage_first": 59.37,
+      "overlap_percentage_second": 41.64,
+      "shared_words_list": [
+        "abide",
+        "abides",
+        "abiding",
+        "ability",
+        "able",
+        "abode",
+        "absolute",
+        "absolutely",
+        "absorbed",
+        "abstinence",
+        "abstract",
+        "abstraction",
+        "absurd",
+        "absurdity",
+        "abused",
+        "abusive",
+        "accept",
+        "accepted",
+        "accepting",
+        "access",
+        "accessed",
+        "accessible",
+        "accidental",
+        "accompanied",
+        "accompany",
+        "accomplish",
+        "accomplished",
+        "accordance",
+        "according",
+        "accordingly",
+        "account",
+        "accounted",
+        "accustomed",
+        "acknowledge",
+        "acknowledged",
+        "acquire",
+        "acquired",
+        "act",
+        "acted",
+        "acting",
+        "action",
+        "active",
+        "actual",
+        "actually",
+        "adaptation",
+        "adapted",
+        "adapting",
+        "add",
+        "adding",
+        "addition",
+        "additional",
+        "address",
+        "addressed",
+        "adequate",
+        "admirable",
+        "admiration",
+        "admission",
+        "admit",
+        "admits",
+        "admitted",
+        "admonition",
+        "adopt",
+        "advance",
+        "advantage",
+        "advice",
+        "aeschylus",
+        "afar",
+        "affair",
+        "affect",
+        "affected",
+        "affection",
+        "affirming",
+        "affirms",
+        "afforded",
+        "afraid",
+        "afterwards",
+        "age",
+        "agent",
+        "agree",
+        "agreeable",
+        "agreed",
+        "agreement",
+        "agrees",
+        "aid",
+        "aim",
+        "air",
+        "akin",
+        "alike",
+        "alive",
+        "allow",
+        "allowance",
+        "allowed",
+        "allows",
+        "allusion",
+        "almost",
+        "alone",
+        "along",
+        "already",
+        "also",
+        "alteration"
+      ]
+    },
+    "Plato Phae|||Plato Republic": {
+      "shared_words": 3037,
+      "unique_to_first": 1154,
+      "unique_to_second": 3735,
+      "jaccard_similarity": 0.3832,
+      "overlap_percentage_first": 72.46,
+      "overlap_percentage_second": 44.85,
+      "shared_words_list": [
+        "abide",
+        "abiding",
+        "able",
+        "abode",
+        "absolute",
+        "absolutely",
+        "absorbed",
+        "abstinence",
+        "abstract",
+        "abstraction",
+        "absurd",
+        "absurdity",
+        "abusing",
+        "accent",
+        "accept",
+        "accepted",
+        "accepting",
+        "access",
+        "accessed",
+        "accessible",
+        "accompanied",
+        "accompany",
+        "accomplish",
+        "accomplished",
+        "accordance",
+        "according",
+        "accordingly",
+        "account",
+        "accounted",
+        "accusation",
+        "accused",
+        "accustomed",
+        "acknowledge",
+        "acknowledged",
+        "acknowledges",
+        "acknowledging",
+        "acquire",
+        "acquired",
+        "act",
+        "acted",
+        "acting",
+        "action",
+        "active",
+        "actual",
+        "actually",
+        "adapted",
+        "add",
+        "adding",
+        "addition",
+        "additional",
+        "address",
+        "addressed",
+        "adequate",
+        "adequately",
+        "admirable",
+        "admiration",
+        "admirer",
+        "admission",
+        "admit",
+        "admitted",
+        "admonition",
+        "adopt",
+        "advance",
+        "advantage",
+        "adversary",
+        "advice",
+        "advise",
+        "advising",
+        "aeschylus",
+        "affair",
+        "affect",
+        "affected",
+        "affection",
+        "affirmed",
+        "affirming",
+        "affirms",
+        "afford",
+        "afraid",
+        "afterwards",
+        "age",
+        "agent",
+        "ago",
+        "agony",
+        "agree",
+        "agreeable",
+        "agreed",
+        "agreement",
+        "agrees",
+        "aid",
+        "aided",
+        "aim",
+        "air",
+        "akin",
+        "ala",
+        "alike",
+        "alive",
+        "allegorical",
+        "allegory",
+        "allow",
+        "allowance"
+      ]
+    },
+    "Plato Phae|||Plato Symp": {
+      "shared_words": 2291,
+      "unique_to_first": 1900,
+      "unique_to_second": 1361,
+      "jaccard_similarity": 0.4126,
+      "overlap_percentage_first": 54.66,
+      "overlap_percentage_second": 62.73,
+      "shared_words_list": [
+        "abide",
+        "abides",
+        "ability",
+        "able",
+        "absolute",
+        "absolutely",
+        "absorbed",
+        "abstract",
+        "abstraction",
+        "absurdity",
+        "accept",
+        "accepted",
+        "accepting",
+        "access",
+        "accessed",
+        "accessible",
+        "accompanied",
+        "accomplished",
+        "accordance",
+        "according",
+        "accordingly",
+        "account",
+        "accounted",
+        "accusation",
+        "accustomed",
+        "acknowledge",
+        "acknowledged",
+        "acquire",
+        "acquired",
+        "act",
+        "action",
+        "active",
+        "actual",
+        "actually",
+        "acumenus",
+        "add",
+        "addition",
+        "additional",
+        "address",
+        "addressing",
+        "admirable",
+        "admiration",
+        "admirer",
+        "admission",
+        "admit",
+        "admits",
+        "admitted",
+        "admonish",
+        "adoration",
+        "advantage",
+        "advise",
+        "aeschylus",
+        "affected",
+        "affection",
+        "affirmed",
+        "affirming",
+        "afraid",
+        "afterwards",
+        "age",
+        "agent",
+        "ago",
+        "agony",
+        "agree",
+        "agreeable",
+        "agreed",
+        "agreement",
+        "agrees",
+        "aim",
+        "air",
+        "akin",
+        "ala",
+        "alexandrian",
+        "alike",
+        "alive",
+        "allow",
+        "allowed",
+        "allows",
+        "allusion",
+        "almost",
+        "alone",
+        "along",
+        "already",
+        "also",
+        "altar",
+        "alteration",
+        "alternate",
+        "although",
+        "altogether",
+        "always",
+        "amazement",
+        "amazing",
+        "ambiguity",
+        "ambition",
+        "amid",
+        "among",
+        "ancient",
+        "animal",
+        "another",
+        "answer",
+        "answered"
+      ]
+    },
+    "Plato Phae|||Aristotle Gov": {
+      "shared_words": 2315,
+      "unique_to_first": 1876,
+      "unique_to_second": 2546,
+      "jaccard_similarity": 0.3436,
+      "overlap_percentage_first": 55.24,
+      "overlap_percentage_second": 47.62,
+      "shared_words_list": [
+        "abide",
+        "ability",
+        "able",
+        "absolute",
+        "absolutely",
+        "abstract",
+        "absurd",
+        "abusive",
+        "accept",
+        "accepted",
+        "accepting",
+        "access",
+        "accessed",
+        "accessible",
+        "accidental",
+        "accompanied",
+        "accomplish",
+        "accomplished",
+        "accordance",
+        "according",
+        "account",
+        "accounted",
+        "accusation",
+        "accused",
+        "accustomed",
+        "acknowledge",
+        "acknowledged",
+        "acquire",
+        "acquired",
+        "act",
+        "acted",
+        "acting",
+        "action",
+        "active",
+        "actual",
+        "actually",
+        "adapted",
+        "adapting",
+        "add",
+        "addition",
+        "additional",
+        "address",
+        "addressed",
+        "addressing",
+        "admission",
+        "admit",
+        "admits",
+        "admitted",
+        "adopt",
+        "advance",
+        "advantage",
+        "adversary",
+        "advice",
+        "advise",
+        "affair",
+        "affect",
+        "affected",
+        "affection",
+        "affirmed",
+        "affirms",
+        "afflicted",
+        "afraid",
+        "afterwards",
+        "age",
+        "agent",
+        "agree",
+        "agreeable",
+        "agreed",
+        "agreement",
+        "agrees",
+        "aim",
+        "air",
+        "alike",
+        "alive",
+        "allow",
+        "allowance",
+        "allowed",
+        "allows",
+        "almost",
+        "alone",
+        "along",
+        "already",
+        "also",
+        "alteration",
+        "altered",
+        "alternate",
+        "alters",
+        "although",
+        "altogether",
+        "always",
+        "ambition",
+        "among",
+        "amusement",
+        "analogy",
+        "analysis",
+        "ancient",
+        "anger",
+        "animal",
+        "another",
+        "answer"
+      ]
+    },
+    "Aristotle Poetics|||Artistotle Ethics": {
+      "shared_words": 1662,
+      "unique_to_first": 688,
+      "unique_to_second": 4313,
+      "jaccard_similarity": 0.2494,
+      "overlap_percentage_first": 70.72,
+      "overlap_percentage_second": 27.82,
+      "shared_words_list": [
+        "abide",
+        "able",
+        "absence",
+        "absent",
+        "absurd",
+        "absurdity",
+        "accept",
+        "accepted",
+        "accepting",
+        "access",
+        "accessed",
+        "accessible",
+        "accessory",
+        "accident",
+        "accidental",
+        "accompanied",
+        "accordance",
+        "according",
+        "accordingly",
+        "account",
+        "accounted",
+        "accuracy",
+        "acquainted",
+        "acquired",
+        "act",
+        "acting",
+        "action",
+        "active",
+        "actor",
+        "actual",
+        "actually",
+        "acute",
+        "adapted",
+        "add",
+        "added",
+        "adding",
+        "addition",
+        "additional",
+        "address",
+        "addressed",
+        "adequate",
+        "admirable",
+        "admit",
+        "admits",
+        "admitted",
+        "adopted",
+        "advanced",
+        "advantage",
+        "adversity",
+        "aeschylus",
+        "affinity",
+        "afterwards",
+        "agathon",
+        "age",
+        "agent",
+        "agree",
+        "agreed",
+        "agreement",
+        "agrees",
+        "aid",
+        "aim",
+        "aimed",
+        "air",
+        "akin",
+        "alcmaeon",
+        "alike",
+        "allege",
+        "allow",
+        "almost",
+        "alone",
+        "already",
+        "also",
+        "alteration",
+        "altered",
+        "alternate",
+        "always",
+        "among",
+        "analogy",
+        "analysis",
+        "anger",
+        "angry",
+        "animal",
+        "animate",
+        "another",
+        "answer",
+        "answered",
+        "answering",
+        "anyone",
+        "anything",
+        "anywhere",
+        "apart",
+        "apparent",
+        "appeal",
+        "appear",
+        "appearing",
+        "appears",
+        "applicable",
+        "application",
+        "applies",
+        "apply"
+      ]
+    },
+    "Aristotle Poetics|||Plato Republic": {
+      "shared_words": 1768,
+      "unique_to_first": 582,
+      "unique_to_second": 5004,
+      "jaccard_similarity": 0.2404,
+      "overlap_percentage_first": 75.23,
+      "overlap_percentage_second": 26.11,
+      "shared_words_list": [
+        "abide",
+        "able",
+        "absence",
+        "absurd",
+        "absurdity",
+        "accent",
+        "accept",
+        "accepted",
+        "accepting",
+        "access",
+        "accessed",
+        "accessible",
+        "accident",
+        "accompanied",
+        "accordance",
+        "according",
+        "accordingly",
+        "account",
+        "accounted",
+        "accuracy",
+        "accusation",
+        "achilles",
+        "acquainted",
+        "acquired",
+        "act",
+        "acting",
+        "action",
+        "active",
+        "actor",
+        "actual",
+        "actually",
+        "acute",
+        "adapted",
+        "add",
+        "added",
+        "adding",
+        "addition",
+        "additional",
+        "address",
+        "addressed",
+        "adequate",
+        "admirable",
+        "admit",
+        "admitted",
+        "adopted",
+        "advanced",
+        "advantage",
+        "adverse",
+        "aeschylus",
+        "affinity",
+        "afford",
+        "afterwards",
+        "age",
+        "agent",
+        "agony",
+        "agree",
+        "agreed",
+        "agreement",
+        "agrees",
+        "aid",
+        "aim",
+        "air",
+        "ajax",
+        "akin",
+        "alarm",
+        "alcinous",
+        "alien",
+        "alike",
+        "allied",
+        "allow",
+        "almost",
+        "alone",
+        "already",
+        "also",
+        "altar",
+        "alteration",
+        "altered",
+        "alternate",
+        "always",
+        "among",
+        "amulet",
+        "analogy",
+        "analysis",
+        "anger",
+        "angry",
+        "animal",
+        "animate",
+        "another",
+        "answer",
+        "answered",
+        "answering",
+        "antecedent",
+        "anyhow",
+        "anyone",
+        "anything",
+        "anywhere",
+        "apart",
+        "apparent",
+        "appeal",
+        "appear"
+      ]
+    },
+    "Aristotle Poetics|||Plato Symp": {
+      "shared_words": 1414,
+      "unique_to_first": 936,
+      "unique_to_second": 2238,
+      "jaccard_similarity": 0.3082,
+      "overlap_percentage_first": 60.17,
+      "overlap_percentage_second": 38.72,
+      "shared_words_list": [
+        "abandoning",
+        "abide",
+        "able",
+        "absent",
+        "absurdity",
+        "accept",
+        "accepted",
+        "accepting",
+        "access",
+        "accessed",
+        "accessible",
+        "accident",
+        "accompanied",
+        "accordance",
+        "according",
+        "accordingly",
+        "account",
+        "accounted",
+        "accusation",
+        "achilles",
+        "acquainted",
+        "acquired",
+        "act",
+        "action",
+        "active",
+        "actor",
+        "actual",
+        "actually",
+        "add",
+        "added",
+        "addition",
+        "additional",
+        "address",
+        "admirable",
+        "admit",
+        "admits",
+        "admitted",
+        "adopted",
+        "advantage",
+        "aeschylus",
+        "affinity",
+        "afterwards",
+        "agathon",
+        "age",
+        "agent",
+        "agony",
+        "agree",
+        "agreed",
+        "agreement",
+        "agrees",
+        "aim",
+        "air",
+        "ajax",
+        "akin",
+        "alcibiades",
+        "alike",
+        "allow",
+        "almost",
+        "alone",
+        "already",
+        "also",
+        "altar",
+        "alteration",
+        "alternate",
+        "always",
+        "ambiguity",
+        "among",
+        "angry",
+        "animal",
+        "another",
+        "answer",
+        "answered",
+        "answering",
+        "anyone",
+        "anything",
+        "anywhere",
+        "apart",
+        "apparent",
+        "appeal",
+        "appear",
+        "appearing",
+        "appears",
+        "applicable",
+        "application",
+        "apply",
+        "appointed",
+        "approach",
+        "archive",
+        "arise",
+        "arises",
+        "aristophanes",
+        "arm",
+        "aroused",
+        "arrangement",
+        "array",
+        "arrive",
+        "arrives",
+        "art",
+        "artist",
+        "artistic"
+      ]
+    },
+    "Aristotle Poetics|||Aristotle Gov": {
+      "shared_words": 1514,
+      "unique_to_first": 836,
+      "unique_to_second": 3347,
+      "jaccard_similarity": 0.2658,
+      "overlap_percentage_first": 64.43,
+      "overlap_percentage_second": 31.15,
+      "shared_words_list": [
+        "abide",
+        "able",
+        "absent",
+        "absurd",
+        "accept",
+        "accepted",
+        "accepting",
+        "access",
+        "accessed",
+        "accessible",
+        "accident",
+        "accidental",
+        "accompanied",
+        "accordance",
+        "according",
+        "account",
+        "accounted",
+        "accuracy",
+        "accusation",
+        "achilles",
+        "acquainted",
+        "acquired",
+        "act",
+        "acting",
+        "action",
+        "active",
+        "actor",
+        "actual",
+        "actually",
+        "adapted",
+        "add",
+        "added",
+        "addition",
+        "additional",
+        "address",
+        "addressed",
+        "admit",
+        "admits",
+        "admitted",
+        "adopted",
+        "advanced",
+        "advantage",
+        "adverse",
+        "affinity",
+        "afterwards",
+        "age",
+        "agent",
+        "agree",
+        "agreed",
+        "agreement",
+        "agrees",
+        "aim",
+        "aimed",
+        "air",
+        "alike",
+        "allow",
+        "almost",
+        "alone",
+        "already",
+        "also",
+        "alteration",
+        "altered",
+        "alternate",
+        "always",
+        "among",
+        "analogy",
+        "analysis",
+        "anger",
+        "angry",
+        "animal",
+        "another",
+        "answer",
+        "answered",
+        "anyone",
+        "anything",
+        "anywhere",
+        "apart",
+        "apparent",
+        "appeal",
+        "appear",
+        "appearing",
+        "appears",
+        "applicable",
+        "application",
+        "apply",
+        "appointed",
+        "approach",
+        "appropriate",
+        "archive",
+        "archon",
+        "argo",
+        "arise",
+        "arises",
+        "aristophanes",
+        "aristotle",
+        "arm",
+        "array",
+        "arrive",
+        "art",
+        "artificial"
+      ]
+    },
+    "Artistotle Ethics|||Plato Republic": {
+      "shared_words": 3449,
+      "unique_to_first": 2526,
+      "unique_to_second": 3323,
+      "jaccard_similarity": 0.3709,
+      "overlap_percentage_first": 57.72,
+      "overlap_percentage_second": 50.93,
+      "shared_words_list": [
+        "abide",
+        "abiding",
+        "able",
+        "abode",
+        "abroad",
+        "absence",
+        "absolute",
+        "absolutely",
+        "absorbed",
+        "abstain",
+        "abstinence",
+        "abstract",
+        "abstraction",
+        "absurd",
+        "absurdity",
+        "abundance",
+        "abuse",
+        "accept",
+        "acceptance",
+        "accepted",
+        "accepting",
+        "access",
+        "accessed",
+        "accessible",
+        "accident",
+        "accompanied",
+        "accompany",
+        "accompanying",
+        "accomplish",
+        "accomplished",
+        "accomplishing",
+        "accomplishment",
+        "accord",
+        "accordance",
+        "according",
+        "accordingly",
+        "account",
+        "accounted",
+        "accuracy",
+        "accurate",
+        "accustomed",
+        "accustoming",
+        "achieved",
+        "acknowledge",
+        "acknowledged",
+        "acquaintance",
+        "acquainted",
+        "acquire",
+        "acquired",
+        "acquisition",
+        "act",
+        "acted",
+        "acting",
+        "action",
+        "active",
+        "actor",
+        "actual",
+        "actually",
+        "acute",
+        "ad",
+        "adapted",
+        "add",
+        "added",
+        "adding",
+        "addition",
+        "additional",
+        "address",
+        "addressed",
+        "adequate",
+        "administer",
+        "administered",
+        "administration",
+        "admirable",
+        "admiration",
+        "admire",
+        "admired",
+        "admission",
+        "admit",
+        "admitted",
+        "admitting",
+        "admonition",
+        "adopt",
+        "adopted",
+        "adultery",
+        "advance",
+        "advanced",
+        "advancing",
+        "advantage",
+        "advantageous",
+        "advice",
+        "advises",
+        "advocate",
+        "aeschylus",
+        "affair",
+        "affect",
+        "affected",
+        "affecting",
+        "affection",
+        "affinity",
+        "affirm"
+      ]
+    },
+    "Artistotle Ethics|||Plato Symp": {
+      "shared_words": 2252,
+      "unique_to_first": 3723,
+      "unique_to_second": 1400,
+      "jaccard_similarity": 0.3054,
+      "overlap_percentage_first": 37.69,
+      "overlap_percentage_second": 61.66,
+      "shared_words_list": [
+        "abide",
+        "abides",
+        "ability",
+        "able",
+        "absent",
+        "absolute",
+        "absolutely",
+        "absorbed",
+        "abstain",
+        "abstaining",
+        "abstract",
+        "abstraction",
+        "absurdity",
+        "abuse",
+        "accept",
+        "acceptance",
+        "accepted",
+        "accepting",
+        "access",
+        "accessed",
+        "accessible",
+        "accident",
+        "accompanied",
+        "accomplished",
+        "accomplishing",
+        "accord",
+        "accordance",
+        "according",
+        "accordingly",
+        "account",
+        "accounted",
+        "accurate",
+        "accustomed",
+        "acknowledge",
+        "acknowledged",
+        "acquaintance",
+        "acquainted",
+        "acquire",
+        "acquired",
+        "acquisition",
+        "act",
+        "action",
+        "active",
+        "activity",
+        "actor",
+        "actual",
+        "actually",
+        "add",
+        "added",
+        "addition",
+        "additional",
+        "address",
+        "adjustment",
+        "admirable",
+        "admiration",
+        "admired",
+        "admission",
+        "admit",
+        "admits",
+        "admitted",
+        "adopted",
+        "adulterer",
+        "advantage",
+        "aeschylus",
+        "affected",
+        "affecting",
+        "affection",
+        "affinity",
+        "affirming",
+        "afraid",
+        "afterwards",
+        "agamemnon",
+        "agathon",
+        "age",
+        "agent",
+        "agree",
+        "agreeable",
+        "agreed",
+        "agreement",
+        "agrees",
+        "aim",
+        "air",
+        "akin",
+        "alike",
+        "alive",
+        "allow",
+        "allowed",
+        "allows",
+        "alluded",
+        "allusion",
+        "almost",
+        "alone",
+        "along",
+        "already",
+        "also",
+        "alteration",
+        "alternate",
+        "although",
+        "altogether",
+        "always"
+      ]
+    },
+    "Artistotle Ethics|||Aristotle Gov": {
+      "shared_words": 2926,
+      "unique_to_first": 3049,
+      "unique_to_second": 1935,
+      "jaccard_similarity": 0.3699,
+      "overlap_percentage_first": 48.97,
+      "overlap_percentage_second": 60.19,
+      "shared_words_list": [
+        "abide",
+        "ability",
+        "able",
+        "abroad",
+        "absent",
+        "absolute",
+        "absolutely",
+        "abstain",
+        "abstract",
+        "absurd",
+        "abundance",
+        "abuse",
+        "abusive",
+        "accept",
+        "accepted",
+        "accepting",
+        "access",
+        "accessed",
+        "accessible",
+        "accident",
+        "accidental",
+        "accidentally",
+        "accompanied",
+        "accomplish",
+        "accomplished",
+        "accomplishing",
+        "accord",
+        "accordance",
+        "according",
+        "account",
+        "accounted",
+        "accuracy",
+        "accurate",
+        "accurately",
+        "accustom",
+        "accustomed",
+        "accustoming",
+        "acknowledge",
+        "acknowledged",
+        "acquaintance",
+        "acquainted",
+        "acquire",
+        "acquired",
+        "acquisition",
+        "act",
+        "acted",
+        "acting",
+        "action",
+        "active",
+        "activity",
+        "actor",
+        "actual",
+        "actually",
+        "adapted",
+        "adapting",
+        "add",
+        "added",
+        "addition",
+        "additional",
+        "address",
+        "addressed",
+        "adjudged",
+        "adjustment",
+        "administer",
+        "administered",
+        "administering",
+        "administration",
+        "admire",
+        "admission",
+        "admit",
+        "admits",
+        "admitted",
+        "admitting",
+        "adopt",
+        "adopted",
+        "adultery",
+        "advance",
+        "advanced",
+        "advantage",
+        "advantageous",
+        "advice",
+        "affair",
+        "affect",
+        "affected",
+        "affection",
+        "affinity",
+        "affirm",
+        "affirms",
+        "afraid",
+        "afresh",
+        "afterwards",
+        "agamemnon",
+        "age",
+        "agent",
+        "agree",
+        "agreeable",
+        "agreed",
+        "agreement",
+        "agrees",
+        "aim"
+      ]
+    },
+    "Plato Republic|||Plato Symp": {
+      "shared_words": 2782,
+      "unique_to_first": 3990,
+      "unique_to_second": 870,
+      "jaccard_similarity": 0.364,
+      "overlap_percentage_first": 41.08,
+      "overlap_percentage_second": 76.18,
+      "shared_words_list": [
+        "abate",
+        "abide",
+        "able",
+        "absolute",
+        "absolutely",
+        "absorbed",
+        "abstain",
+        "abstained",
+        "abstract",
+        "abstraction",
+        "absurdity",
+        "abuse",
+        "accept",
+        "acceptance",
+        "accepted",
+        "accepting",
+        "access",
+        "accessed",
+        "accessible",
+        "accident",
+        "accompanied",
+        "accompaniment",
+        "accomplished",
+        "accomplishing",
+        "accord",
+        "accordance",
+        "according",
+        "accordingly",
+        "account",
+        "accounted",
+        "accurate",
+        "accusation",
+        "accustomed",
+        "achilles",
+        "acknowledge",
+        "acknowledged",
+        "acquaintance",
+        "acquainted",
+        "acquire",
+        "acquired",
+        "acquisition",
+        "across",
+        "act",
+        "action",
+        "active",
+        "actor",
+        "actual",
+        "actually",
+        "add",
+        "added",
+        "addition",
+        "additional",
+        "address",
+        "admirable",
+        "admiration",
+        "admired",
+        "admirer",
+        "admission",
+        "admit",
+        "admitted",
+        "adopted",
+        "advantage",
+        "advise",
+        "aeschylus",
+        "affected",
+        "affecting",
+        "affection",
+        "affinity",
+        "affirmed",
+        "affirming",
+        "affords",
+        "afraid",
+        "afterwards",
+        "agamemnon",
+        "age",
+        "agent",
+        "ago",
+        "agony",
+        "agree",
+        "agreeable",
+        "agreed",
+        "agreement",
+        "agrees",
+        "aim",
+        "air",
+        "ajax",
+        "akin",
+        "ala",
+        "alike",
+        "alive",
+        "alleviation",
+        "allow",
+        "allowed",
+        "allows",
+        "alluded",
+        "alluding",
+        "allusion",
+        "almost",
+        "alone",
+        "along"
+      ]
+    },
+    "Plato Republic|||Aristotle Gov": {
+      "shared_words": 3084,
+      "unique_to_first": 3688,
+      "unique_to_second": 1777,
+      "jaccard_similarity": 0.3607,
+      "overlap_percentage_first": 45.54,
+      "overlap_percentage_second": 63.44,
+      "shared_words_list": [
+        "abide",
+        "able",
+        "abound",
+        "abroad",
+        "absolute",
+        "absolutely",
+        "abstain",
+        "abstract",
+        "absurd",
+        "abundance",
+        "abundantly",
+        "abuse",
+        "accept",
+        "accepted",
+        "accepting",
+        "access",
+        "accessed",
+        "accessible",
+        "accident",
+        "accommodate",
+        "accompanied",
+        "accomplish",
+        "accomplished",
+        "accomplishing",
+        "accord",
+        "accordance",
+        "according",
+        "account",
+        "accounted",
+        "accuracy",
+        "accurate",
+        "accusation",
+        "accuse",
+        "accused",
+        "accustomed",
+        "accustoming",
+        "achaean",
+        "achilles",
+        "acknowledge",
+        "acknowledged",
+        "acquaintance",
+        "acquainted",
+        "acquire",
+        "acquired",
+        "acquiring",
+        "acquisition",
+        "acquitted",
+        "act",
+        "acted",
+        "acting",
+        "action",
+        "active",
+        "actor",
+        "actual",
+        "actually",
+        "adapt",
+        "adapted",
+        "add",
+        "added",
+        "addition",
+        "additional",
+        "address",
+        "addressed",
+        "adjusted",
+        "administer",
+        "administered",
+        "administration",
+        "admire",
+        "admission",
+        "admit",
+        "admitted",
+        "admitting",
+        "adopt",
+        "adopted",
+        "adultery",
+        "advance",
+        "advanced",
+        "advantage",
+        "advantageous",
+        "adversary",
+        "adverse",
+        "advice",
+        "advise",
+        "advised",
+        "adviser",
+        "affair",
+        "affect",
+        "affectation",
+        "affected",
+        "affection",
+        "affectionate",
+        "affinity",
+        "affirm",
+        "affirmed",
+        "affirms",
+        "affords",
+        "afraid",
+        "afterwards",
+        "agamemnon",
+        "age"
+      ]
+    },
+    "Plato Symp|||Aristotle Gov": {
+      "shared_words": 2108,
+      "unique_to_first": 1544,
+      "unique_to_second": 2753,
+      "jaccard_similarity": 0.3291,
+      "overlap_percentage_first": 57.72,
+      "overlap_percentage_second": 43.37,
+      "shared_words_list": [
+        "abide",
+        "ability",
+        "able",
+        "absent",
+        "absolute",
+        "absolutely",
+        "abstain",
+        "abstract",
+        "abuse",
+        "accept",
+        "accepted",
+        "accepting",
+        "access",
+        "accessed",
+        "accessible",
+        "accident",
+        "accompanied",
+        "accomplished",
+        "accomplishing",
+        "accord",
+        "accordance",
+        "according",
+        "account",
+        "accounted",
+        "accurate",
+        "accusation",
+        "accustomed",
+        "achilles",
+        "acknowledge",
+        "acknowledged",
+        "acquaintance",
+        "acquainted",
+        "acquire",
+        "acquired",
+        "acquisition",
+        "act",
+        "action",
+        "active",
+        "activity",
+        "actor",
+        "actual",
+        "actually",
+        "add",
+        "added",
+        "addition",
+        "additional",
+        "address",
+        "addressing",
+        "adjustment",
+        "admission",
+        "admit",
+        "admits",
+        "admitted",
+        "adopted",
+        "advantage",
+        "advise",
+        "affected",
+        "affection",
+        "affinity",
+        "affirmed",
+        "affords",
+        "afraid",
+        "afterwards",
+        "agamemnon",
+        "age",
+        "agent",
+        "agree",
+        "agreeable",
+        "agreed",
+        "agreement",
+        "agrees",
+        "aim",
+        "air",
+        "alike",
+        "alive",
+        "allow",
+        "allowed",
+        "allows",
+        "almost",
+        "alone",
+        "along",
+        "already",
+        "also",
+        "alteration",
+        "alternate",
+        "although",
+        "altogether",
+        "always",
+        "ambition",
+        "amend",
+        "among",
+        "ancestor",
+        "ancient",
+        "anew",
+        "angry",
+        "animal",
+        "annihilate",
+        "another",
+        "answer",
+        "answered"
+      ]
+    }
+  },
+  "topics": {
+    "topic_keywords": {
+      "topic_0": {
+        "keywords": [
+          "government",
+          "replied",
+          "democracy",
+          "lover",
+          "injustice",
+          "guardian",
+          "ruler",
+          "plot",
+          "mentioned",
+          "unjust",
+          "book",
+          "tyrant",
+          "private",
+          "useful",
+          "affair"
+        ],
+        "weights": {
+          "government": 0.0035,
+          "replied": 0.0027,
+          "democracy": 0.0021,
+          "lover": 0.0018,
+          "injustice": 0.0018,
+          "guardian": 0.0018,
+          "ruler": 0.0017,
+          "plot": 0.0016,
+          "mentioned": 0.0016,
+          "unjust": 0.0016,
+          "book": 0.0015,
+          "tyrant": 0.0015,
+          "private": 0.0014,
+          "useful": 0.0013,
+          "affair": 0.0013
+        }
+      },
+      "topic_1": {
+        "keywords": [
+          "plot",
+          "recognition",
+          "tragic",
+          "metre",
+          "strange",
+          "iliad",
+          "letter",
+          "mentioned",
+          "objection",
+          "critic",
+          "dancing",
+          "prose",
+          "ludicrous",
+          "aid",
+          "representing"
+        ],
+        "weights": {
+          "plot": 0.091,
+          "recognition": 0.0471,
+          "tragic": 0.0331,
+          "metre": 0.0299,
+          "strange": 0.019,
+          "iliad": 0.0174,
+          "letter": 0.0143,
+          "mentioned": 0.0143,
+          "objection": 0.0112,
+          "critic": 0.0096,
+          "dancing": 0.0096,
+          "prose": 0.008,
+          "ludicrous": 0.008,
+          "aid": 0.008,
+          "representing": 0.008
+        }
+      },
+      "topic_2": {
+        "keywords": [
+          "government",
+          "democracy",
+          "unjust",
+          "replied",
+          "tyrant",
+          "injustice",
+          "book",
+          "properly",
+          "guardian",
+          "useful",
+          "mentioned",
+          "private",
+          "affair",
+          "governed",
+          "labour"
+        ],
+        "weights": {
+          "government": 0.0058,
+          "democracy": 0.004,
+          "unjust": 0.0023,
+          "replied": 0.0022,
+          "tyrant": 0.0021,
+          "injustice": 0.0019,
+          "book": 0.0018,
+          "properly": 0.0018,
+          "guardian": 0.0017,
+          "useful": 0.0017,
+          "mentioned": 0.0017,
+          "private": 0.0016,
+          "affair": 0.0016,
+          "governed": 0.0015,
+          "labour": 0.0015
+        }
+      },
+      "topic_3": {
+        "keywords": [
+          "government",
+          "replied",
+          "unjust",
+          "guardian",
+          "democracy",
+          "injustice",
+          "ruler",
+          "tyrant",
+          "lover",
+          "book",
+          "private",
+          "governed",
+          "useful",
+          "mentioned",
+          "labour"
+        ],
+        "weights": {
+          "government": 0.0104,
+          "replied": 0.0056,
+          "unjust": 0.004,
+          "guardian": 0.0037,
+          "democracy": 0.0036,
+          "injustice": 0.0033,
+          "ruler": 0.0029,
+          "tyrant": 0.0028,
+          "lover": 0.0026,
+          "book": 0.0023,
+          "private": 0.0022,
+          "governed": 0.002,
+          "useful": 0.0019,
+          "mentioned": 0.0018,
+          "labour": 0.0018
+        }
+      },
+      "topic_4": {
+        "keywords": [
+          "government",
+          "lover",
+          "democracy",
+          "replied",
+          "unjust",
+          "injustice",
+          "book",
+          "beloved",
+          "tyrant",
+          "guardian",
+          "ruler",
+          "pleasant",
+          "useful",
+          "private",
+          "mentioned"
+        ],
+        "weights": {
+          "government": 0.0045,
+          "lover": 0.0032,
+          "democracy": 0.0031,
+          "replied": 0.0027,
+          "unjust": 0.0024,
+          "injustice": 0.0021,
+          "book": 0.0019,
+          "beloved": 0.0019,
+          "tyrant": 0.0018,
+          "guardian": 0.0018,
+          "ruler": 0.0018,
+          "pleasant": 0.0017,
+          "useful": 0.0017,
+          "private": 0.0016,
+          "mentioned": 0.0015
+        }
+      },
+      "topic_5": {
+        "keywords": [
+          "government",
+          "democracy",
+          "governed",
+          "useful",
+          "tyrant",
+          "affair",
+          "mentioned",
+          "private",
+          "properly",
+          "assembly",
+          "labour",
+          "considered",
+          "regulated",
+          "book",
+          "management"
+        ],
+        "weights": {
+          "government": 0.1238,
+          "democracy": 0.0617,
+          "governed": 0.0175,
+          "useful": 0.0161,
+          "tyrant": 0.0159,
+          "affair": 0.0156,
+          "mentioned": 0.0152,
+          "private": 0.0124,
+          "properly": 0.0107,
+          "assembly": 0.0105,
+          "labour": 0.0104,
+          "considered": 0.0079,
+          "regulated": 0.0075,
+          "book": 0.0074,
+          "management": 0.0071
+        }
+      },
+      "topic_6": {
+        "keywords": [
+          "replied",
+          "lover",
+          "injustice",
+          "guardian",
+          "unjust",
+          "ruler",
+          "beloved",
+          "tyrant",
+          "temperance",
+          "book",
+          "republic",
+          "figure",
+          "asked",
+          "symposium",
+          "ignorant"
+        ],
+        "weights": {
+          "replied": 0.0367,
+          "lover": 0.0285,
+          "injustice": 0.0142,
+          "guardian": 0.0139,
+          "unjust": 0.0138,
+          "ruler": 0.0136,
+          "beloved": 0.0099,
+          "tyrant": 0.0073,
+          "temperance": 0.0065,
+          "book": 0.0063,
+          "republic": 0.0058,
+          "figure": 0.0056,
+          "asked": 0.0051,
+          "symposium": 0.005,
+          "ignorant": 0.005
+        }
+      },
+      "topic_7": {
+        "keywords": [
+          "pleasant",
+          "unjust",
+          "book",
+          "perfected",
+          "apt",
+          "lust",
+          "injustice",
+          "kindness",
+          "commonly",
+          "respecting",
+          "ii",
+          "liberal",
+          "conduct",
+          "movement",
+          "properly"
+        ],
+        "weights": {
+          "pleasant": 0.0264,
+          "unjust": 0.0252,
+          "book": 0.0229,
+          "perfected": 0.0145,
+          "apt": 0.0143,
+          "lust": 0.0116,
+          "injustice": 0.0106,
+          "kindness": 0.0105,
+          "commonly": 0.0103,
+          "respecting": 0.0097,
+          "ii": 0.0089,
+          "liberal": 0.0085,
+          "conduct": 0.0082,
+          "movement": 0.0081,
+          "properly": 0.008
+        }
+      }
+    },
+    "document_topics": {
+      "Plato Phae": {
+        "topic_6": 0.9999
+      },
+      "Aristotle Poetics": {
+        "topic_1": 0.9995
+      },
+      "Artistotle Ethics": {
+        "topic_7": 0.9999
+      },
+      "Plato Republic": {
+        "topic_5": 0.0585,
+        "topic_6": 0.9208,
+        "topic_7": 0.0207
+      },
+      "Plato Symp": {
+        "topic_6": 0.9999
+      },
+      "Aristotle Gov": {
+        "topic_5": 0.9999
+      }
+    },
+    "shared_themes": {
+      "plato_topic_strengths": {
+        "topic_6": 0.9735333333333335,
+        "topic_5": 0.0585,
+        "topic_7": 0.0207
+      },
+      "aristotle_topic_strengths": {
+        "topic_1": 0.9995,
+        "topic_7": 0.9999,
+        "topic_5": 0.9999
+      },
+      "shared_themes": [
+        {
+          "topic": "topic_5",
+          "plato_strength": 0.0585,
+          "aristotle_strength": 0.9999,
+          "total_strength": 1.0584
+        },
+        {
+          "topic": "topic_7",
+          "plato_strength": 0.0207,
+          "aristotle_strength": 0.9999,
+          "total_strength": 1.0206
+        }
+      ]
+    }
+  },
+  "sentiment": {
+    "individual_texts": {
+      "Plato Phae": {
+        "vader": {
+          "positive": 0.05,
+          "negative": 0.03,
+          "neutral": 0.92,
+          "compound": 0.15
+        },
+        "textblob": {
+          "polarity": 0.08,
+          "subjectivity": 0.45
+        },
+        "sentence_distribution": {
+          "note": "Sentence-level distribution not available"
+        },
+        "overall_tone": "neutral, balanced"
+      },
+      "Plato Republic": {
+        "vader": {
+          "positive": 0.06,
+          "negative": 0.04,
+          "neutral": 0.9,
+          "compound": 0.18
+        },
+        "textblob": {
+          "polarity": 0.1,
+          "subjectivity": 0.48
+        },
+        "sentence_distribution": {
+          "note": "Sentence-level distribution not available"
+        },
+        "overall_tone": "positive, balanced"
+      },
+      "Plato Symp": {
+        "vader": {
+          "positive": 0.07,
+          "negative": 0.03,
+          "neutral": 0.9,
+          "compound": 0.22
+        },
+        "textblob": {
+          "polarity": 0.12,
+          "subjectivity": 0.5
+        },
+        "sentence_distribution": {
+          "note": "Sentence-level distribution not available"
+        },
+        "overall_tone": "positive, balanced"
+      },
+      "Aristotle Gov": {
+        "vader": {
+          "positive": 0.04,
+          "negative": 0.03,
+          "neutral": 0.93,
+          "compound": 0.08
+        },
+        "textblob": {
+          "polarity": 0.05,
+          "subjectivity": 0.42
+        },
+        "sentence_distribution": {
+          "note": "Sentence-level distribution not available"
+        },
+        "overall_tone": "neutral, objective"
+      },
+      "Aristotle Poetics": {
+        "vader": {
+          "positive": 0.05,
+          "negative": 0.03,
+          "neutral": 0.92,
+          "compound": 0.12
+        },
+        "textblob": {
+          "polarity": 0.07,
+          "subjectivity": 0.4
+        },
+        "sentence_distribution": {
+          "note": "Sentence-level distribution not available"
+        },
+        "overall_tone": "neutral, objective"
+      },
+      "Artistotle Ethics": {
+        "vader": {
+          "positive": 0.06,
+          "negative": 0.03,
+          "neutral": 0.91,
+          "compound": 0.16
+        },
+        "textblob": {
+          "polarity": 0.09,
+          "subjectivity": 0.44
+        },
+        "sentence_distribution": {
+          "note": "Sentence-level distribution not available"
+        },
+        "overall_tone": "neutral, balanced"
+      }
+    },
+    "author_comparison": {
+      "plato": {
+        "avg_polarity": 0.1,
+        "avg_subjectivity": 0.48
+      },
+      "aristotle": {
+        "avg_polarity": 0.07,
+        "avg_subjectivity": 0.42
+      },
+      "comparison": {
+        "polarity_difference": 0.03,
+        "subjectivity_difference": 0.06,
+        "interpretation": "Plato uses slightly more positive language | Plato writes more subjectively"
+      }
+    }
+  },
+  "network": {
+    "nodes": [
+      {
+        "id": "Plato Phae",
+        "author": "Plato",
+        "label": "Plato Phae"
+      },
+      {
+        "id": "Aristotle Poetics",
+        "author": "Aristotle",
+        "label": "Aristotle Poetics"
+      },
+      {
+        "id": "Artistotle Ethics",
+        "author": "Aristotle",
+        "label": "Artistotle Ethics"
+      },
+      {
+        "id": "Plato Republic",
+        "author": "Plato",
+        "label": "Plato Republic"
+      },
+      {
+        "id": "Plato Symp",
+        "author": "Plato",
+        "label": "Plato Symp"
+      },
+      {
+        "id": "Aristotle Gov",
+        "author": "Aristotle",
+        "label": "Aristotle Gov"
+      }
+    ],
+    "links": [
+      {
+        "source": "Plato Phae",
+        "target": "Aristotle Poetics",
+        "weight": 0.2968,
+        "shared_words": 1497
+      },
+      {
+        "source": "Plato Phae",
+        "target": "Artistotle Ethics",
+        "weight": 0.324,
+        "shared_words": 2488
+      },
+      {
+        "source": "Plato Phae",
+        "target": "Plato Republic",
+        "weight": 0.3832,
+        "shared_words": 3037
+      },
+      {
+        "source": "Plato Phae",
+        "target": "Plato Symp",
+        "weight": 0.4126,
+        "shared_words": 2291
+      },
+      {
+        "source": "Plato Phae",
+        "target": "Aristotle Gov",
+        "weight": 0.3436,
+        "shared_words": 2315
+      },
+      {
+        "source": "Aristotle Poetics",
+        "target": "Artistotle Ethics",
+        "weight": 0.2494,
+        "shared_words": 1662
+      },
+      {
+        "source": "Aristotle Poetics",
+        "target": "Plato Republic",
+        "weight": 0.2404,
+        "shared_words": 1768
+      },
+      {
+        "source": "Aristotle Poetics",
+        "target": "Plato Symp",
+        "weight": 0.3082,
+        "shared_words": 1414
+      },
+      {
+        "source": "Aristotle Poetics",
+        "target": "Aristotle Gov",
+        "weight": 0.2658,
+        "shared_words": 1514
+      },
+      {
+        "source": "Artistotle Ethics",
+        "target": "Plato Republic",
+        "weight": 0.3709,
+        "shared_words": 3449
+      },
+      {
+        "source": "Artistotle Ethics",
+        "target": "Plato Symp",
+        "weight": 0.3054,
+        "shared_words": 2252
+      },
+      {
+        "source": "Artistotle Ethics",
+        "target": "Aristotle Gov",
+        "weight": 0.3699,
+        "shared_words": 2926
+      },
+      {
+        "source": "Plato Republic",
+        "target": "Plato Symp",
+        "weight": 0.364,
+        "shared_words": 2782
+      },
+      {
+        "source": "Plato Republic",
+        "target": "Aristotle Gov",
+        "weight": 0.3607,
+        "shared_words": 3084
+      },
+      {
+        "source": "Plato Symp",
+        "target": "Aristotle Gov",
+        "weight": 0.3291,
+        "shared_words": 2108
+      }
+    ]
+  },
+  "metadata": {
+    "text_count": 6,
+    "plato_count": 3,
+    "aristotle_count": 3,
+    "texts": {
+      "plato": [
+        "Plato Phae",
+        "Plato Republic",
+        "Plato Symp"
+      ],
+      "aristotle": [
+        "Aristotle Poetics",
+        "Artistotle Ethics",
+        "Aristotle Gov"
+      ]
+    }
+  }
+}

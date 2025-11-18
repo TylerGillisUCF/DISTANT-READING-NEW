@@ -1,0 +1,340 @@
+{
+  "topics": {
+    "topic_0": {
+      "keywords": [
+        "government",
+        "replied",
+        "democracy",
+        "lover",
+        "injustice",
+        "guardian",
+        "ruler",
+        "plot",
+        "mentioned",
+        "unjust",
+        "book",
+        "tyrant",
+        "private",
+        "useful",
+        "affair"
+      ],
+      "weights": {
+        "government": 0.0035,
+        "replied": 0.0027,
+        "democracy": 0.0021,
+        "lover": 0.0018,
+        "injustice": 0.0018,
+        "guardian": 0.0018,
+        "ruler": 0.0017,
+        "plot": 0.0016,
+        "mentioned": 0.0016,
+        "unjust": 0.0016,
+        "book": 0.0015,
+        "tyrant": 0.0015,
+        "private": 0.0014,
+        "useful": 0.0013,
+        "affair": 0.0013
+      }
+    },
+    "topic_1": {
+      "keywords": [
+        "plot",
+        "recognition",
+        "tragic",
+        "metre",
+        "strange",
+        "iliad",
+        "letter",
+        "mentioned",
+        "objection",
+        "critic",
+        "dancing",
+        "prose",
+        "ludicrous",
+        "aid",
+        "representing"
+      ],
+      "weights": {
+        "plot": 0.091,
+        "recognition": 0.0471,
+        "tragic": 0.0331,
+        "metre": 0.0299,
+        "strange": 0.019,
+        "iliad": 0.0174,
+        "letter": 0.0143,
+        "mentioned": 0.0143,
+        "objection": 0.0112,
+        "critic": 0.0096,
+        "dancing": 0.0096,
+        "prose": 0.008,
+        "ludicrous": 0.008,
+        "aid": 0.008,
+        "representing": 0.008
+      }
+    },
+    "topic_2": {
+      "keywords": [
+        "government",
+        "democracy",
+        "unjust",
+        "replied",
+        "tyrant",
+        "injustice",
+        "book",
+        "properly",
+        "guardian",
+        "useful",
+        "mentioned",
+        "private",
+        "affair",
+        "governed",
+        "labour"
+      ],
+      "weights": {
+        "government": 0.0058,
+        "democracy": 0.004,
+        "unjust": 0.0023,
+        "replied": 0.0022,
+        "tyrant": 0.0021,
+        "injustice": 0.0019,
+        "book": 0.0018,
+        "properly": 0.0018,
+        "guardian": 0.0017,
+        "useful": 0.0017,
+        "mentioned": 0.0017,
+        "private": 0.0016,
+        "affair": 0.0016,
+        "governed": 0.0015,
+        "labour": 0.0015
+      }
+    },
+    "topic_3": {
+      "keywords": [
+        "government",
+        "replied",
+        "unjust",
+        "guardian",
+        "democracy",
+        "injustice",
+        "ruler",
+        "tyrant",
+        "lover",
+        "book",
+        "private",
+        "governed",
+        "useful",
+        "mentioned",
+        "labour"
+      ],
+      "weights": {
+        "government": 0.0104,
+        "replied": 0.0056,
+        "unjust": 0.004,
+        "guardian": 0.0037,
+        "democracy": 0.0036,
+        "injustice": 0.0033,
+        "ruler": 0.0029,
+        "tyrant": 0.0028,
+        "lover": 0.0026,
+        "book": 0.0023,
+        "private": 0.0022,
+        "governed": 0.002,
+        "useful": 0.0019,
+        "mentioned": 0.0018,
+        "labour": 0.0018
+      }
+    },
+    "topic_4": {
+      "keywords": [
+        "government",
+        "lover",
+        "democracy",
+        "replied",
+        "unjust",
+        "injustice",
+        "book",
+        "beloved",
+        "tyrant",
+        "guardian",
+        "ruler",
+        "pleasant",
+        "useful",
+        "private",
+        "mentioned"
+      ],
+      "weights": {
+        "government": 0.0045,
+        "lover": 0.0032,
+        "democracy": 0.0031,
+        "replied": 0.0027,
+        "unjust": 0.0024,
+        "injustice": 0.0021,
+        "book": 0.0019,
+        "beloved": 0.0019,
+        "tyrant": 0.0018,
+        "guardian": 0.0018,
+        "ruler": 0.0018,
+        "pleasant": 0.0017,
+        "useful": 0.0017,
+        "private": 0.0016,
+        "mentioned": 0.0015
+      }
+    },
+    "topic_5": {
+      "keywords": [
+        "government",
+        "democracy",
+        "governed",
+        "useful",
+        "tyrant",
+        "affair",
+        "mentioned",
+        "private",
+        "properly",
+        "assembly",
+        "labour",
+        "considered",
+        "regulated",
+        "book",
+        "management"
+      ],
+      "weights": {
+        "government": 0.1238,
+        "democracy": 0.0617,
+        "governed": 0.0175,
+        "useful": 0.0161,
+        "tyrant": 0.0159,
+        "affair": 0.0156,
+        "mentioned": 0.0152,
+        "private": 0.0124,
+        "properly": 0.0107,
+        "assembly": 0.0105,
+        "labour": 0.0104,
+        "considered": 0.0079,
+        "regulated": 0.0075,
+        "book": 0.0074,
+        "management": 0.0071
+      }
+    },
+    "topic_6": {
+      "keywords": [
+        "replied",
+        "lover",
+        "injustice",
+        "guardian",
+        "unjust",
+        "ruler",
+        "beloved",
+        "tyrant",
+        "temperance",
+        "book",
+        "republic",
+        "figure",
+        "asked",
+        "symposium",
+        "ignorant"
+      ],
+      "weights": {
+        "replied": 0.0367,
+        "lover": 0.0285,
+        "injustice": 0.0142,
+        "guardian": 0.0139,
+        "unjust": 0.0138,
+        "ruler": 0.0136,
+        "beloved": 0.0099,
+        "tyrant": 0.0073,
+        "temperance": 0.0065,
+        "book": 0.0063,
+        "republic": 0.0058,
+        "figure": 0.0056,
+        "asked": 0.0051,
+        "symposium": 0.005,
+        "ignorant": 0.005
+      }
+    },
+    "topic_7": {
+      "keywords": [
+        "pleasant",
+        "unjust",
+        "book",
+        "perfected",
+        "apt",
+        "lust",
+        "injustice",
+        "kindness",
+        "commonly",
+        "respecting",
+        "ii",
+        "liberal",
+        "conduct",
+        "movement",
+        "properly"
+      ],
+      "weights": {
+        "pleasant": 0.0264,
+        "unjust": 0.0252,
+        "book": 0.0229,
+        "perfected": 0.0145,
+        "apt": 0.0143,
+        "lust": 0.0116,
+        "injustice": 0.0106,
+        "kindness": 0.0105,
+        "commonly": 0.0103,
+        "respecting": 0.0097,
+        "ii": 0.0089,
+        "liberal": 0.0085,
+        "conduct": 0.0082,
+        "movement": 0.0081,
+        "properly": 0.008
+      }
+    }
+  },
+  "document_topics": {
+    "Plato Phae": {
+      "topic_6": 0.9999
+    },
+    "Aristotle Poetics": {
+      "topic_1": 0.9995
+    },
+    "Artistotle Ethics": {
+      "topic_7": 0.9999
+    },
+    "Plato Republic": {
+      "topic_5": 0.0585,
+      "topic_6": 0.9208,
+      "topic_7": 0.0207
+    },
+    "Plato Symp": {
+      "topic_6": 0.9999
+    },
+    "Aristotle Gov": {
+      "topic_5": 0.9999
+    }
+  },
+  "shared_themes": {
+    "plato_topic_strengths": {
+      "topic_6": 0.9735333333333335,
+      "topic_5": 0.0585,
+      "topic_7": 0.0207
+    },
+    "aristotle_topic_strengths": {
+      "topic_1": 0.9995,
+      "topic_7": 0.9999,
+      "topic_5": 0.9999
+    },
+    "shared_themes": [
+      {
+        "topic": "topic_5",
+        "plato_strength": 0.0585,
+        "aristotle_strength": 0.9999,
+        "total_strength": 1.0584
+      },
+      {
+        "topic": "topic_7",
+        "plato_strength": 0.0207,
+        "aristotle_strength": 0.9999,
+        "total_strength": 1.0206
+      }
+    ]
+  }
+}

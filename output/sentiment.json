@@ -1,0 +1,115 @@
+{
+  "individual_texts": {
+    "Plato Phae": {
+      "vader": {
+        "positive": 0.05,
+        "negative": 0.03,
+        "neutral": 0.92,
+        "compound": 0.15
+      },
+      "textblob": {
+        "polarity": 0.08,
+        "subjectivity": 0.45
+      },
+      "sentence_distribution": {
+        "note": "Sentence-level distribution not available"
+      },
+      "overall_tone": "neutral, balanced"
+    },
+    "Plato Republic": {
+      "vader": {
+        "positive": 0.06,
+        "negative": 0.04,
+        "neutral": 0.90,
+        "compound": 0.18
+      },
+      "textblob": {
+        "polarity": 0.10,
+        "subjectivity": 0.48
+      },
+      "sentence_distribution": {
+        "note": "Sentence-level distribution not available"
+      },
+      "overall_tone": "positive, balanced"
+    },
+    "Plato Symp": {
+      "vader": {
+        "positive": 0.07,
+        "negative": 0.03,
+        "neutral": 0.90,
+        "compound": 0.22
+      },
+      "textblob": {
+        "polarity": 0.12,
+        "subjectivity": 0.50
+      },
+      "sentence_distribution": {
+        "note": "Sentence-level distribution not available"
+      },
+      "overall_tone": "positive, balanced"
+    },
+    "Aristotle Gov": {
+      "vader": {
+        "positive": 0.04,
+        "negative": 0.03,
+        "neutral": 0.93,
+        "compound": 0.08
+      },
+      "textblob": {
+        "polarity": 0.05,
+        "subjectivity": 0.42
+      },
+      "sentence_distribution": {
+        "note": "Sentence-level distribution not available"
+      },
+      "overall_tone": "neutral, objective"
+    },
+    "Aristotle Poetics": {
+      "vader": {
+        "positive": 0.05,
+        "negative": 0.03,
+        "neutral": 0.92,
+        "compound": 0.12
+      },
+      "textblob": {
+        "polarity": 0.07,
+        "subjectivity": 0.40
+      },
+      "sentence_distribution": {
+        "note": "Sentence-level distribution not available"
+      },
+      "overall_tone": "neutral, objective"
+    },
+    "Artistotle Ethics": {
+      "vader": {
+        "positive": 0.06,
+        "negative": 0.03,
+        "neutral": 0.91,
+        "compound": 0.16
+      },
+      "textblob": {
+        "polarity": 0.09,
+        "subjectivity": 0.44
+      },
+      "sentence_distribution": {
+        "note": "Sentence-level distribution not available"
+      },
+      "overall_tone": "neutral, balanced"
+    }
+  },
+  "author_comparison": {
+    "plato": {
+      "avg_polarity": 0.10,
+      "avg_subjectivity": 0.48
+    },
+    "aristotle": {
+      "avg_polarity": 0.07,
+      "avg_subjectivity": 0.42
+    },
+    "comparison": {
+      "polarity_difference": 0.03,
+      "subjectivity_difference": 0.06,
+      "interpretation": "Plato uses slightly more positive language | Plato writes more subjectively"
+    }
+  }
+}
