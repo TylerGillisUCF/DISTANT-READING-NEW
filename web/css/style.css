@@ -1,0 +1,450 @@
+/* ========================================
+   Distant Reading Dashboard Styles
+   ======================================== */
+
+:root {
+    --plato-color: #3498db;
+    --aristotle-color: #e74c3c;
+    --bg-color: #f5f7fa;
+    --card-bg: #ffffff;
+    --text-primary: #2c3e50;
+    --text-secondary: #7f8c8d;
+    --border-color: #ecf0f1;
+    --shadow: 0 2px 8px rgba(0,0,0,0.1);
+    --hover-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+
+/* ========================================
+   Header
+   ======================================== */
+
+header {
+    background: linear-gradient(135deg, var(--plato-color), var(--aristotle-color));
+    color: white;
+    padding: 2rem 0;
+    box-shadow: var(--shadow);
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.95;
+}
+
+nav {
+    background-color: white;
+    border-bottom: 2px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: var(--shadow);
+}
+
+nav .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem 0;
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    color: var(--plato-color);
+    border-bottom-color: var(--plato-color);
+}
+
+/* ========================================
+   Main Content
+   ======================================== */
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ========================================
+   Cards
+   ======================================== */
+
+.card {
+    background: var(--card-bg);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: var(--hover-shadow);
+}
+
+.card h2 {
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.card h3 {
+    color: var(--text-secondary);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ========================================
+   Grid Layouts
+   ======================================== */
+
+.grid {
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 968px) {
+    .grid-2, .grid-3, .grid-4 {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ========================================
+   Text Cards
+   ======================================== */
+
+.text-card {
+    background: var(--card-bg);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    border-left: 4px solid var(--border-color);
+}
+
+.text-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--hover-shadow);
+}
+
+.text-card.plato {
+    border-left-color: var(--plato-color);
+}
+
+.text-card.aristotle {
+    border-left-color: var(--aristotle-color);
+}
+
+.text-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--text-primary);
+}
+
+.text-card .author {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.text-card .stat {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.text-card .stat:last-child {
+    border-bottom: none;
+}
+
+.text-card .stat-label {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.text-card .stat-value {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* ========================================
+   Visualizations
+   ======================================== */
+
+.viz-container {
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+}
+
+#wordcloud {
+    min-height: 500px;
+}
+
+#network {
+    min-height: 600px;
+}
+
+.chart-container {
+    position: relative;
+    height: 400px;
+    margin: 1rem 0;
+}
+
+/* ========================================
+   Comparison Tool
+   ======================================== */
+
+.comparison-selector {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.selector-group {
+    flex: 1;
+    min-width: 250px;
+}
+
+.selector-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.selector-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: white;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.selector-group select:focus {
+    outline: none;
+    border-color: var(--plato-color);
+}
+
+.compare-btn {
+    padding: 0.75rem 2rem;
+    background: linear-gradient(135deg, var(--plato-color), var(--aristotle-color));
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-top: 1.8rem;
+}
+
+.compare-btn:hover {
+    transform: translateY(-2px);
+}
+
+.comparison-result {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .comparison-result {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ========================================
+   Metrics Display
+   ======================================== */
+
+.metric-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    background-color: var(--bg-color);
+    border-radius: 4px;
+}
+
+.metric-label {
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.metric-value {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.metric-bar {
+    height: 8px;
+    background-color: var(--bg-color);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+
+.metric-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--plato-color), var(--aristotle-color));
+    transition: width 0.5s ease;
+}
+
+/* ========================================
+   Topics & Themes
+   ======================================== */
+
+.topic-tag {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    background-color: var(--bg-color);
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+
+.topic-tag.strong {
+    background-color: var(--plato-color);
+    color: white;
+    border-color: var(--plato-color);
+}
+
+/* ========================================
+   Word Lists
+   ======================================== */
+
+.word-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.word-item {
+    padding: 0.5rem 1rem;
+    background-color: var(--bg-color);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.word-item .word {
+    font-weight: 600;
+}
+
+.word-item .count {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+/* ========================================
+   Loading State
+   ======================================== */
+
+.loading {
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-secondary);
+}
+
+.loading::after {
+    content: '...';
+    animation: dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes dots {
+    0%, 20% {
+        content: '.';
+    }
+    40% {
+        content: '..';
+    }
+    60%, 100% {
+        content: '...';
+    }
+}
+
+/* ========================================
+   Utilities
+   ======================================== */
+
+.text-center {
+    text-align: center;
+}
+
+.mt-1 { margin-top: 1rem; }
+.mt-2 { margin-top: 2rem; }
+.mb-1 { margin-bottom: 1rem; }
+.mb-2 { margin-bottom: 2rem; }
+
+.plato-text {
+    color: var(--plato-color);
+}
+
+.aristotle-text {
+    color: var(--aristotle-color);
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Texts - Distant Reading</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Compare Two Texts</h1>
+            <p>Side-by-side analysis of any two philosophical texts</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="index.html">Overview</a>
+            <a href="compare.html" class="active">Compare Texts</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Text Selection -->
+        <section class="card">
+            <h2>Select Texts to Compare</h2>
+            <div class="comparison-selector">
+                <div class="selector-group">
+                    <label for="text1-select">First Text</label>
+                    <select id="text1-select">
+                        <option value="">-- Select a text --</option>
+                    </select>
+                </div>
+                <div class="selector-group">
+                    <label for="text2-select">Second Text</label>
+                    <select id="text2-select">
+                        <option value="">-- Select a text --</option>
+                    </select>
+                </div>
+                <button id="compare-btn" class="compare-btn">Compare</button>
+            </div>
+        </section>
+
+        <!-- Comparison Results -->
+        <div id="comparison-results" style="display: none;">
+
+            <!-- Basic Stats Comparison -->
+            <section class="card">
+                <h2>Basic Statistics</h2>
+                <div class="comparison-result">
+                    <div>
+                        <h3 id="text1-title">Text 1</h3>
+                        <div class="metric-row">
+                            <span class="metric-label">Word Count</span>
+                            <span class="metric-value" id="text1-words">0</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Unique Words</span>
+                            <span class="metric-value" id="text1-unique">0</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Sentences</span>
+                            <span class="metric-value" id="text1-sentences">0</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Avg Sentence Length</span>
+                            <span class="metric-value" id="text1-avg-sent">0</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Lexical Diversity (TTR)</span>
+                            <span class="metric-value" id="text1-ttr">0</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 id="text2-title">Text 2</h3>
+                        <div class="metric-row">
+                            <span class="metric-label">Word Count</span>
+                            <span class="metric-value" id="text2-words">0</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Unique Words</span>
+                            <span class="metric-value" id="text2-unique">0</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Sentences</span>
+                            <span class="metric-value" id="text2-sentences">0</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Avg Sentence Length</span>
+                            <span class="metric-value" id="text2-avg-sent">0</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Lexical Diversity (TTR)</span>
+                            <span class="metric-value" id="text2-ttr">0</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Vocabulary Overlap -->
+            <section class="card">
+                <h2>Vocabulary Overlap</h2>
+                <div class="metric-row">
+                    <span class="metric-label">Shared Words</span>
+                    <span class="metric-value" id="overlap-shared">0</span>
+                </div>
+                <div class="metric-row">
+                    <span class="metric-label">Jaccard Similarity</span>
+                    <span class="metric-value" id="overlap-jaccard">0</span>
+                </div>
+                <div class="comparison-result mt-2">
+                    <div>
+                        <h3>Top 20 Shared Words</h3>
+                        <div id="shared-words-list" class="word-list"></div>
+                    </div>
+                    <div>
+                        <h3>Overlap Visualization</h3>
+                        <canvas id="overlap-chart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Top Words Comparison -->
+            <section class="card">
+                <h2>Most Frequent Words</h2>
+                <div class="comparison-result">
+                    <div>
+                        <h3 id="text1-top-words-title">Text 1 - Top Words</h3>
+                        <div id="text1-top-words" class="word-list"></div>
+                    </div>
+                    <div>
+                        <h3 id="text2-top-words-title">Text 2 - Top Words</h3>
+                        <div id="text2-top-words" class="word-list"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Topic Distribution Comparison -->
+            <section class="card">
+                <h2>Topic Distribution</h2>
+                <p>How strongly each text relates to discovered philosophical themes</p>
+                <canvas id="topic-comparison-chart"></canvas>
+            </section>
+
+            <!-- Sentiment Comparison -->
+            <section class="card">
+                <h2>Sentiment Comparison</h2>
+                <div class="comparison-result">
+                    <div>
+                        <h3 id="text1-sentiment-title">Text 1 - Sentiment</h3>
+                        <div class="metric-row">
+                            <span class="metric-label">Polarity</span>
+                            <span class="metric-value" id="text1-polarity">0</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Subjectivity</span>
+                            <span class="metric-value" id="text1-subjectivity">0</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Overall Tone</span>
+                            <span class="metric-value" id="text1-tone">-</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 id="text2-sentiment-title">Text 2 - Sentiment</h3>
+                        <div class="metric-row">
+                            <span class="metric-label">Polarity</span>
+                            <span class="metric-value" id="text2-polarity">0</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Subjectivity</span>
+                            <span class="metric-value" id="text2-subjectivity">0</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Overall Tone</span>
+                            <span class="metric-value" id="text2-tone">-</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <script src="js/compare.js"></script>
+</body>
+</html>

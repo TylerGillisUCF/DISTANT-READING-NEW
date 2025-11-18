@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distant Reading: Plato & Aristotle</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- External libraries -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/wordcloud@1.2.2/src/wordcloud2.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Distant Reading: Classical Philosophy</h1>
+            <p>Exploring the connections between Plato and Aristotle through computational textual analysis</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="index.html" class="active">Overview</a>
+            <a href="compare.html">Compare Texts</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Loading State -->
+        <div id="loading" class="loading">
+            <h2>Loading analysis data</h2>
+        </div>
+
+        <!-- Main Dashboard (hidden until data loads) -->
+        <div id="dashboard" style="display: none;">
+
+            <!-- Summary Stats -->
+            <section class="card">
+                <h2>Project Overview</h2>
+                <div class="grid grid-3">
+                    <div class="metric-row">
+                        <div class="metric-label">Total Texts Analyzed</div>
+                        <div class="metric-value" id="total-texts">6</div>
+                    </div>
+                    <div class="metric-row">
+                        <div class="metric-label">Total Words</div>
+                        <div class="metric-value" id="total-words">0</div>
+                    </div>
+                    <div class="metric-row">
+                        <div class="metric-label">Shared Vocabulary</div>
+                        <div class="metric-value" id="shared-vocab">0</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Individual Text Cards -->
+            <section class="card">
+                <h2>The Texts</h2>
+                <div id="text-cards" class="grid grid-3">
+                    <!-- Generated dynamically -->
+                </div>
+            </section>
+
+            <!-- Author Comparison -->
+            <section class="card">
+                <h2>Plato vs Aristotle: Vocabulary Analysis</h2>
+                <div class="grid grid-2">
+                    <div>
+                        <h3 class="plato-text">Plato (Teacher)</h3>
+                        <div class="metric-row">
+                            <span class="metric-label">Unique Words</span>
+                            <span class="metric-value" id="plato-vocab">0</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Avg Lexical Diversity</span>
+                            <span class="metric-value" id="plato-diversity">0</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="aristotle-text">Aristotle (Student)</h3>
+                        <div class="metric-row">
+                            <span class="metric-label">Unique Words</span>
+                            <span class="metric-value" id="aristotle-vocab">0</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label">Avg Lexical Diversity</span>
+                            <span class="metric-value" id="aristotle-diversity">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <h3>Top Shared Philosophical Terms</h3>
+                    <div id="shared-words" class="word-list">
+                        <!-- Generated dynamically -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Network Visualization -->
+            <section class="card">
+                <h2>Conceptual Network</h2>
+                <p>Visual representation of connections between texts based on vocabulary overlap</p>
+                <div id="network" class="viz-container"></div>
+            </section>
+
+            <!-- Word Cloud -->
+            <section class="card">
+                <h2>Collective Word Cloud</h2>
+                <p>Most frequent philosophical terms across all texts</p>
+                <div>
+                    <label for="wordcloud-select">Select Text:</label>
+                    <select id="wordcloud-select" style="margin-left: 1rem; padding: 0.5rem;">
+                        <option value="all">All Texts Combined</option>
+                        <option value="plato">Plato (All Works)</option>
+                        <option value="aristotle">Aristotle (All Works)</option>
+                    </select>
+                </div>
+                <div id="wordcloud" class="viz-container"></div>
+            </section>
+
+            <!-- Topics -->
+            <section class="card">
+                <h2>Discovered Topics</h2>
+                <p>Common themes identified across all texts using topic modeling</p>
+                <div id="topics-container">
+                    <!-- Generated dynamically -->
+                </div>
+            </section>
+
+            <!-- Sentiment Analysis -->
+            <section class="card">
+                <h2>Sentiment & Emotional Tone</h2>
+                <div class="grid grid-2">
+                    <div>
+                        <h3>Polarity (Positive vs Negative)</h3>
+                        <canvas id="sentiment-polarity-chart"></canvas>
+                    </div>
+                    <div>
+                        <h3>Subjectivity (Objective vs Subjective)</h3>
+                        <canvas id="sentiment-subjectivity-chart"></canvas>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <h3>Author Comparison</h3>
+                    <div id="author-sentiment-comparison">
+                        <!-- Generated dynamically -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Stylistic Comparison -->
+            <section class="card">
+                <h2>Stylistic Analysis</h2>
+                <div>
+                    <h3>Average Sentence Length</h3>
+                    <canvas id="sentence-length-chart"></canvas>
+                </div>
+                <div class="mt-2">
+                    <h3>Lexical Diversity</h3>
+                    <canvas id="diversity-chart"></canvas>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+    <script src="js/network.js"></script>
+    <script src="js/wordcloud.js"></script>
+    <script src="js/charts.js"></script>
+</body>
+</html>
