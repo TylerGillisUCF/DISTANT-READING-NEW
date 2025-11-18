@@ -23,37 +23,44 @@ A computational textual analysis project examining the connections and influence
 - **Influence Detection**: Tracking conceptual connections between teacher and student
 - **Interactive Visualizations**: Network graphs, wordclouds, comparative metrics
 
-## Installation
+## Quick Start (No Installation Required!)
+
+**All analysis data is pre-generated and included in this repository.** You can use the interactive dashboard immediately without installing anything:
+
+### Option 1: Local Viewing
+Simply open `web/index.html` in your web browser.
+
+### Option 2: GitHub Pages Deployment
+1. Push this repository to GitHub
+2. Go to Settings → Pages
+3. Set Source to your main branch
+4. Set folder to `/` (root)
+5. Your site will be live at `https://[username].github.io/[repo-name]/web/`
+
+### Option 3: Other Static Hosting
+Deploy the entire repository to any static hosting service (Netlify, Vercel, etc.) and access `web/index.html`.
+
+## Re-running Analysis (Optional)
+
+If you want to modify the texts or re-run the analysis:
 
 ```bash
 # Create virtual environment
 python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Download required NLTK data
+# Download NLTK data
 python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('averaged_perceptron_tagger'); nltk.download('wordnet')"
-```
 
-## Usage
-
-```bash
-# 1. Extract text from Word documents
-python src/extract.py
-
-# 2. Preprocess and clean texts
-python src/preprocess.py
-
-# 3. Run complete analysis
-python src/analyze.py
-
-# 4. Generate web visualization data
-python src/generate.py
-
-# 5. Open web interface
-# Simply open web/index.html in a browser
+# Run analysis pipeline
+python src/extract.py      # Extract from .docx
+python src/preprocess.py   # Clean text
+python src/analyze.py      # Analyze vocabulary
+python src/topics.py       # Topic modeling
+python src/generate.py     # Generate final JSON
 ```
 
 ## Project Structure
