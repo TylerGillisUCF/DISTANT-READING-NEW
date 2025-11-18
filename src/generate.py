@@ -97,25 +97,19 @@ def run_all_analyses(all_texts, plato_texts, aristotle_texts):
     topic_distributions = modeler.get_topic_distributions(lda_model, corpus, doc_ids)
     shared_themes = modeler.identify_shared_themes(topic_distributions)
 
-    # 5. Sentiment analysis
-    print("\n5. Analyzing sentiment...")
-    all_sentiments = {}
-    plato_sentiments = {}
-    aristotle_sentiments = {}
-
-    for text_id, data in tqdm(all_texts.items(), desc="Sentiment"):
-        # Use cleaned text for sentiment
-        sentiment = sentiment_analyzer.analyze_emotional_tone(data['cleaned_text'])
-        all_sentiments[text_id] = sentiment
-
-        if 'Plato' in text_id:
-            plato_sentiments[text_id] = sentiment
-        elif 'Aristotle' in text_id or 'Artistotle' in text_id:
-            aristotle_sentiments[text_id] = sentiment
-
-    sentiment_comparison = sentiment_analyzer.compare_authors_sentiment(
-        plato_sentiments, aristotle_sentiments
-    )
+    # 5. Load pre-computed sentiment analysis
+    print("\n5. Loading sentiment data...")
+    sentiment_path = Path('output/sentiment.json')
+    if sentiment_path.exists():
+        with open(sentiment_path, 'r') as f:
+            sentiment_data = json.load(f)
+        all_sentiments = sentiment_data.get('individual_texts', {})
+        sentiment_comparison = sentiment_data.get('author_comparison', {})
+        print("   Loaded pre-computed sentiment data")
+    else:
+        print("   Warning: sentiment.json not found, sentiment analysis will be empty")
+        all_sentiments = {}
+        sentiment_comparison = {}
 
     # 6. Create network data for visualization
     print("\n6. Generating network data...")

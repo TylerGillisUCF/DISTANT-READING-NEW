@@ -59,7 +59,7 @@ class SentimentAnalyzer:
 
     def analyze_sentence_sentiment_distribution(self, sentences):
         """
-        Analyze sentiment distribution across sentences.
+        Analyze sentiment distribution across sentences (sampled for performance).
 
         Args:
             sentences: List of sentences
@@ -70,10 +70,20 @@ class SentimentAnalyzer:
         if not sentences:
             return {}
 
+        # Sample sentences for performance (analyze every 10th sentence or max 500)
+        import random
+        if len(sentences) > 500:
+            sample_size = 500
+            sampled_sentences = random.sample(sentences, sample_size)
+        elif len(sentences) > 50:
+            sampled_sentences = sentences[::max(1, len(sentences)//100)]  # Sample ~100 sentences
+        else:
+            sampled_sentences = sentences
+
         polarities = []
         subjectivities = []
 
-        for sent in sentences:
+        for sent in sampled_sentences:
             blob = TextBlob(sent)
             polarities.append(blob.sentiment.polarity)
             subjectivities.append(blob.sentiment.subjectivity)
@@ -110,9 +120,11 @@ class SentimentAnalyzer:
         vader_scores = self.analyze_with_vader(text)
         textblob_scores = self.analyze_with_textblob(text)
 
-        # Sentence-level analysis
-        sentences = self.preprocessor.tokenize_sentences(text)
-        sentence_dist = self.analyze_sentence_sentiment_distribution(sentences)
+        # Skip detailed sentence-level analysis for performance
+        # (analyzing thousands of sentences per text is very slow)
+        sentence_dist = {
+            'note': 'Sentence-level distribution skipped for performance'
+        }
 
         return {
             'vader': vader_scores,

@@ -30,12 +30,13 @@ wheels/
 *.swo
 *~
 
-# Data files (keep structure, ignore large processed files)
-data/processed/*.txt
-data/processed/*.json
+# Data files - COMMITTED for static deployment
+# (processed texts and analysis data are included in repo for GitHub Pages)
+# data/processed/*.txt
+# data/processed/*.json
 
-# Output files
-output/*.json
+# Output files - COMMITTED for static deployment
+# output/*.json
 output/*.png
 output/*.jpg
 

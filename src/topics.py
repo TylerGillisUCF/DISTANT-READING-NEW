@@ -97,8 +97,8 @@ class TopicModeler:
             # Get topic distribution for this document
             topic_dist = lda_model.get_document_topics(doc_corpus)
 
-            # Convert to dictionary format
-            dist_dict = {f"topic_{topic_id}": round(prob, 4) for topic_id, prob in topic_dist}
+            # Convert to dictionary format (ensure native Python types)
+            dist_dict = {f"topic_{topic_id}": round(float(prob), 4) for topic_id, prob in topic_dist}
 
             distributions[doc_id] = dist_dict
 
@@ -123,7 +123,7 @@ class TopicModeler:
 
             topics[f"topic_{topic_id}"] = {
                 'keywords': [word for word, _ in words],
-                'weights': {word: round(weight, 4) for word, weight in words}
+                'weights': {word: round(float(weight), 4) for word, weight in words}
             }
 
         return topics
@@ -150,8 +150,8 @@ class TopicModeler:
                     aristotle_topics[topic].append(strength)
 
         # Calculate average strength per topic per author
-        plato_avg = {topic: sum(strengths)/len(strengths) for topic, strengths in plato_topics.items()}
-        aristotle_avg = {topic: sum(strengths)/len(strengths) for topic, strengths in aristotle_topics.items()}
+        plato_avg = {topic: float(sum(strengths)/len(strengths)) for topic, strengths in plato_topics.items()}
+        aristotle_avg = {topic: float(sum(strengths)/len(strengths)) for topic, strengths in aristotle_topics.items()}
 
         # Find shared themes (topics strong in both)
         shared_themes = []
